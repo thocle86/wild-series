@@ -1,13 +1,12 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}All programs{% endblock %}
+{% block title %}Catégorie {{ category.name }}{% endblock %}
 
 {% block body %}
-    <h1 class="program_title">Toutes les séries de la table program : </h1>
-    <a href="{{ path('index') }}" class="navigation">Retour à l'accueil</a>
+    <a href="{{ path('category_index') }}" class="navigation">Retour à la liste des catégories</a>
     {% for program in programs %}
         <div class="program_container">
-            <p class="program_text">{{ loop.index }} / {{ program.title }} - Catégorie : {{ program.category.name }}</p>
+            <p class="program_text">{{ program.id }} : {{ program.title }}</p>
             <p class="program_text">{{ program.summary }}</p>
             {# Lien vers la fiche de la série : #}
             <a href="{{ path('program_show', { id: program.id }) }}" class="program_lien">Voir la fiche</a>

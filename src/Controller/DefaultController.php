@@ -9,10 +9,14 @@ use Symfony\Component\Routing\Annotation\Route;
 class DefaultController extends AbstractController
 {
     /**
-     * @Route("/", name="app_index")
+     * @Route("/", name="index")
+     * @return Response
      */
     public function index(): Response
     {
-        return $this->render("program/index.html.twig");
+        return $this->render(
+            "default/index.html.twig",
+            ["welcome" => "Welcome to Wild Series"]
+        );
     }
 }

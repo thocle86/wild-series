@@ -1,8 +1,12 @@
 body {
     background-color: #15150A;
     font-family: Arial, Helvetica, sans-serif;
+    color: gray;
 }
-
+.navbar {
+    margin: 0;
+    padding: 0;
+}
 .navbar-brand {
     display: flex;
     flex-direction: row;
@@ -28,9 +32,49 @@ body {
     width: 120px;
     text-align: center;
 }
-h1 {
-    margin-top: 200px;
-    text-align: center;
-    font-size: 100px;
+.logo_title {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 40px;
 }
-
+.welcome {
+    text-align: center;
+    margin: 200px;
+    font-size: 80px;
+}
+.program_title {
+    text-align: center;
+    margin: 50px;
+    font-size: 40px;
+    border-bottom: solid 2px ;
+}
+.program_text:nth-child(1) {
+    font-size: 25px;
+}
+.program_text:nth-child(2) {
+    font-size: 15px;
+    padding-left: 100px;
+}
+.program_container {
+    border-bottom: solid 1px gray;
+}
+.program_container a {
+    margin-left: 100px;
+}
+.navigation {
+    font-size: 20px;
+    color: yellow;
+}
+.program_lien {
+    display: block;
+    margin: 10px;
+    line-height: 32px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    background-color: #058AD5;
+    border-radius: 10px;
+    color: white;
+}
