@@ -2,7 +2,7 @@
 
 ## Quest solution symfony 9
 
-    **lien vidéo: https://www.loom.com/share/7c8f01f6150b4a6cb75d34ec0b69da90?sharedAppSource=personal_library**
+https://www.loom.com/share/7c8f01f6150b4a6cb75d34ec0b69da90?sharedAppSource=personal_library
 
 ## Quest solution symfony 8
 
