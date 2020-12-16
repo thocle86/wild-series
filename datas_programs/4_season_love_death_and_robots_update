@@ -1,0 +1,3 @@
+UPDATE season SET description = 
+"Un yaourt susceptible, des soldats lycanthropes, des robots déchaînés, des monstres-poubelles, des chasseurs de primes cyborgs, des araignées extraterrestres et des démons de l'enfer assoiffés de sang : tout ce beau monde est réuni dans 18 courts d'animation déconseillés aux âmes sensibles."
+WHERE id = 15;

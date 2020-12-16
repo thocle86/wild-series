@@ -1,0 +1,25 @@
+INSERT INTO season (id, program_id, number, year, description) VALUES 
+(NULL, 6, 1, 2015, "A Los Angeles, Nick Clark, un jeune toxicomane qui accumule les problèmes, se réveille dans une église abandonnée et découvre son amie en train de dévorer la mâchoire d’un cadavre. Révélant ce qu’il a vu, sa famille pense qu’il s’agit d’hallucinations liées à sa consommation de drogue, même si de nombreux phénomènes étranges se produisent en ville. Mais Madison, sa mère, qui ne croit pas les histoires de son fils et encore moins les rumeurs d’épidémie mortelle qui courent dans le lycée où elle travaille, se rend vite compte que l’apocalypse vient de débuter.");
+
+INSERT INTO season (id, program_id, number, year, description) VALUES 
+(NULL, 6, 2, 2016, "Après avoir assisté à la destruction de la ville de Los Angeles, Travis, Madison et leur famille sont montés à bord du yacht Abigail. Inconscients de l’ampleur de l’apocalypse qui a touché le pays, ils espèrent regagner la terre ferme et trouver refuge dans un endroit épargné par l’infection. Dans le même temps, l’opération Cobalt, menée par les militaires pour enrayer la propagation de l’épidémie, déclenche une migration massive des zombies vers les côtes.");
+
+INSERT INTO season (id, program_id, number, year, description) VALUES 
+(NULL, 6, 3, 2017, "Alors que Madison et les siens tentent de rétablir un semblant de civilisation à la frontière mexicaine, Alicia a bien du mal à dépasser le meurtre d'Andres. Pour survivre aux menaces, la petite bande forme de nouvelles alliances et va devoir faire face à de lourdes pertes. De son côté, Nick est plus vulnérable que jamais après l’enlèvement de Luciana par un groupe armé américain.");
+
+
+
+
+
+
+
+
+
+
+
+
+php bin/console doctrine:query:sql 'INSERT INTO season (id, program_id, number, year, description) VALUES 
+(NULL, 6, 4, 2018, "Morgan Jones, who has left Georgia, heads for Texas and crosses paths with Madison and her family. Together, they find refuge in a baseball stadium where they found a new community. But the group must face the Vultures, survivors who await the death of other camps to obtain all the necessary resources. To ensure their future in this apocalyptic world, everyone must once again show themselves united in order to get rid of the dead and the living who put them in danger.");'
+
+php bin/console doctrine:query:sql 'INSERT INTO season (id, program_id, number, year, description) VALUES 
+(NULL, 6, 5, 2019, "Morgan Jones leads the group with a philosophy of benevolence, determination and hope. Their mission is clear: They must locate survivors and help improve what is left of the world. Everyone thinks that by helping others it will allow them to right the wrongs of their past. But trust is not an easy feeling to gain. Their selflessness is put to the test when the group finds themselves in the middle of unfamiliar territory. They will have to face their past but also their fears ...");'

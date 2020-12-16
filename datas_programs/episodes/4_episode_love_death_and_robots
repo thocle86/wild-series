@@ -1,0 +1,54 @@
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "L'avantage de Sonnie", 1, "Dans l'univers des combats de 'bêtes', Sonnie reste imbattable tant qu'elle garde son mordant.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Les trois robots", 2, "Bien après la disparition de l'espèce humaine, trois robots visitent les vestiges d'une ville anéantie.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Le témoin", 3, "Après avoir été témoin d'un meurtre, une femme tente d'échapper à l'assassin dans les rues d'une ville surréaliste.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Des fermiers équipés", 4, "Des fermiers utilisent leurs propres robots pour défendre leur communauté d'une terrible invasion extraterrestre.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Un vieux démon", 5, "Libéré d'un site archéologique, un démon assoiffé de sang affronte une équipe de mercenaires armée de... chats !");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "La revanche du yaourt", 6, "Un yaourt super-intelligent accidentellement développé en laboratoire est déterminé à dominer le monde.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Derrière la faille", 7, "L'équipage d'un vaisseau à la dérive se réveille à des années-lumière de sa trajectoire d'origine.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Bonne chasse", 8, "Le fils d'un chasseur d'esprits se lie d'amitié avec un hulijing métamorphe.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "La décharge", 9, "Dave l'Affreux est chez lui dans cette décharge, et il refuse de laisser un citadin l'expulser de son domaine.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Métamorphes", 10, "En Afghanistan, deux Marines aux pouvoirs surnaturels doivent affronter une menace unique en son genre.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Le coup de main", 11, "Une astronaute échouée en orbite doit choisir entre sa vie et un membre avant d'épuiser ses réserves d'oxygène.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Les esprits de la nuit", 12, "Deux représentants tombés en panne au milieu du désert se retrouvent propulsés dans un rêve préhistorique.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Lucky 13", 13, "Une bizut hérite du Lucky 13, un vaisseau maudit à bord duquel deux équipages ont mystérieusement disparu.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "L'oeuvre de Zima", 14, "Un brillant artiste se rappelle son passé et son ascension vers la gloire avant de révéler son chef-d'œuvre final.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Angle mort", 15, "Un gang de cyborgs cambrioleurs s'attaque à un convoi lourdement armé.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "L'âge de glace", 16, "Après avoir emménagé dans un nouvel appartement, un couple découvre une civilisation perdue dans un congélateur.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Histoires alternatives", 17, "Dans Multiversity, Hitler connaît plusieurs fins tragiques, à la fois fantastiques et comiques.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Un guerre secrète", 18, "Les unités d'élite de l'Armée rouge combattent une présence diabolique au cœur des forêts de Sibérie.");
+

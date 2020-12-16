@@ -1,0 +1,95 @@
+******************************************************************************************
+SAISON 1
+******************************************************************************************
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 9, "Besogne nocturne", 1, "Dans le Londres troublé de 1891, une énigmatique inconnue approche Ethan Chandler, un jeune américain, pour son courage et son talent au maniement des armes. Elle a besoin de ses services pour une affaire des plus surprenantes et macabres. Celui-ci fait aussitôt la connaissance de l'associé de Mademoiselle Ives, Sir Malcolm Murray, et découvre qu'ils combattent d'étranges et dangereuses créatures surnaturelles. Ethan quittera-t-il sa confortable existence pour risquer sa vie dans un monde dont il ignore tout ? Quant à Sir Malcolm, il comprend vite vite qu'il va lui falloir s'entourer d'une équipe pour mener à bien la mission qu'il lui tient tant à coeur...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 9, "La Séance", 2, "Vanessa et Sir Malcolm se rendent à une fête organisée par l'égyptologue Sir Ferdinand Lyle. Ils y rencontrent le bel et énigmatique Dorian Gray.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 9, "Résurrection", 3, "Le Dr Frankenstein doit affronter les fantômes de son passé. Vanessa a une vision de Mina, ce qui aide le groupe à capturer Fenton, un vampire serviteur.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 9, "Le Demi-Monde", 4, "Les sentiments de Vanessa pour Dorian Gray évoluent. Van Helsing aide Frankenstein à trouver un remède pour guérir la maladie de la fille de Sir Malcolm.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 9, "Une amitié fusionnelle", 5, "Vanessa se souvient de son passé et des événements qui ont mené à la disparition de Mina.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 9, "Ce que la mort peut unir", 6, "Sir Malcolm, Ethan et Sembene montent à bord d'un navire en quarantaine pour retrouver Mina. Van Helsing en dit plus au Dr Frankenstein sur la créature qui a enlevé Mina.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 9, "Possession", 7, "Pendant quatre semaines tourmentées, Sir Malcolm, Ethan, le Dr Frankenstein et Sembene font tout ce qui est en leur pouvoir pour libérer Vanessa de ses démons.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 9, "Grand-Guignol", 8, "Vanessa, Sir Malcolm, Ethan, Dr Frankenstein et Sembene explorent le théâtre du Grand-Guignol, et sont assaillis par leurs pires cauchemars.");
+
+
+******************************************************************************************
+SAISON 2
+******************************************************************************************
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 10, "a Fraîcheur de l'enfer", 1, "Ethan Chandler se réveille et découvre le massacre du Meriner's Inn, qu'il a perpétré une fois sa nature de loup-garou révélée. Il se prépare à fuir et l'annonce en personne à Vanessa Ives, mais celle-ci est attaquée par trois jeunes créatures féminines aux cicatrices particulières et aux paroles incompréhensibles. Cette nouvelle menace force Sir Murray, qui vient d'enterrer sa fille, à remettre son départ en Afrique pour plus tard. Vanessa a reconnu les marques et les paroles des créatures, les identifiant comme des sorcières au service du Diable.En secret, Victor Frankenstein a préparé le corps de Brona pour la ressusciter et en faire une compagne pour Caliban. Celui-ci tente de s'intégrer dans la ville et trouve un emploi dans un musée de cire de petite envergure tenu par un couple qui voit une opportunité dans la laideur de leur nouvel employé.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 10, "Verbis Diablo", 2, "Persécutées par les sorcières jusque dans ses prières, Vanessa est épuisée. Malcolm essaie de lui faire reprendre pied en l'amenant dans un lieu d'aide aux personnes souffrant de choléra. Elle y rencontre Caliban avec qui elle sympathise et se confie sur la religion, la créature trouvant plus de sens dans la poésie que dans les textes religieux. Malcolm retrouve plus tard Evelyn, qui l'envoûte secrètement. Alors que le Dr Frankenstein se charge de réintroduire Brona au monde en lui offrant une nouvelle identité, il est rappelé par le groupe, qui a convié Ferdinand Lyle pour en apprendre plus sur la langue des sorcières, le Verbis Diablo, dont certains textes seraient oubliés dans les archives du British Museum. Lyle et Chandler les récupèrent, et ils commencent le déchiffrage. Pendant ce temps, Dorian Gray est abordé par Angélique, une prostituée transgenre.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 10, "Les Visiteuses de la nuit", 3, "Vanessa raconte à Ethan comment elle a découvert l'existence des Visiteuses de Nuit. Alors qu'elle était hantée par les visions de Mina, elle a recherché de l'aide et a fini dans la maison de la Cureteuse de Bellantree, une sorcière bannie de son clan qui survit en se faisant payer ses potions et des avortements qu'elle pratique sur un lopin de terre du Devon que lui a légué Oliver Cromwell Diablo, mais à mesure qu'elle la côtoie, la Découpeuse prend conscience des pouvoirs et de l'intérêt que lui porte le Démon, mais aussi Evelyn Poole, qui se cache en attendant de pouvoir s'emparer de Vanessa. ");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 10, "Les Esprits démoniaques en des lieux célestes", 4, "Vanessa raconte finalement son histoire avec la Cureteuse à tout le groupe et font vite le lien avec le texte du Verbis Diablo. Les premières traductions de Lyle montrent que le texte ne serait pas qu'une prophétie racontée par un moine mais une transcription en plusieurs langues mortes des mémoires de Lucifer. Sir Malcolm aide à la traduction pendant que le lendemain, chacun vaque à ses occupations : Vanessa aide Frankenstein à choisir des vêtements de ville pour Lily, dont il est devenu très proche alors que Caliban commence à être séduit par la fille aveugle de son employeur ; Dorian Gray sort au grand jour avec son compagnon travesti. Alors que le détective Rusk découvre le crime des parents du bébé et comprend qu'il a affaire à des forces qui le dépassent, Ethan, inquiet avec le massacre du Mariner's Inn, croise la route de Hecate, une des sorcières, mais s'il la démasque, il croit qu'elle est une envoyée de son père. ");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 10, "Sous la voûte des cieux", 5, "L'attaque des sorcières sur la maison Murray pousse le groupe à renforcer leurs défenses par les armes, les fortifications et tous les sortilèges possibles. Mais l'emprise de Mme Kali sur Vanessa et Malcolm est puissante, Vanessa tourmentée par des visions et Malcolm sous le charme de sa nouvelle amante, qui en secret torture l'âme de Mme Murray afin de la pousser au suicide.La demande d'Ethan pour des balles spéciales attire l'attention du détective Rusk, qui soupçonne l'Américain de cacher sa vraie nature. Caliban est confus envers ses sentiments, essayant de séduire Lily mais se sentant plus à l'aise par la fille aveugle de son employeur, alors que Lily est attirée par celui qui se présente comme son cousin, Victor.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 10, "Les Horreurs sublimes", 6, "La nouvelle de la mort de Gladys Murray ébranle Vanessa, mais Malcolm le prend avec une étrange légèreté ; Vanessa et Sembene comprennent que quelque chose a changé chez lui. Dorian Gray décide d'organiser un bal pour officialiser sa liaison avec Angélique et invite autant de personnes qu'il peut : Vanessa, Malcolm et le Dr Frankenstein sont conviés et choisissent de venir accompagnés de Chandler, Miss Poole et Lily respectivement ; seul Chandler refuse l'invitation, traqué par Rusk. Au cours du bal, Dorian Gray reconnait Lily et décide de la séduire à nouveau. Au cours de la soirée, Vanessa se retrouve prise de visions devant les sorcières et perd connaissance. La même nuit, Chandler se fait, à sa demande, enfermer par Sembene dans la cave de la demeure de Murray où il se laisse aller à sa transformation.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 10, "Petit Scorpion", 7, "Vanessa et Ethan s'enfuient de Londres et prennent retraite au cottage de l'Avorteuse, sur les landes. Ils s'habituent rapidement à l'environnement,le temps passe et ils se rapprochent, lorsqu'une personne du passé de Vanessa refait surface : le baronnet qui a fait tuer la Découpeuse. Alors qu'Ethan se dévouait pour l'assassiner, Vanessa décide d'utiliser un sort du livre interdit de la Découpeuse pour que ses chiens le tuent. Ethan est en colère et déçu, car désormais, Vanessa a tué un homme. Pendant ce temps, Lyle et le Dr Frankenstein en apprennent davantage sur les reliques du Verbis Diablo. Victor laisse Lily vivre sa vie : elle passe une soirée avec Dorian Gray avant de se rendre dans un bar, choisir un vieil homme et le tuer pendant l'amour.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 10, "Memento Mori", 8, "Victor se perd dans la drogue alors que Caliban lui reproche d'avoir laissé partir Lily et que celle-ci passe son temps entre Dorian Gray et le corps de ses victimes. Alors que Dorian la délaisse, Angelique finit par découvrir la cache de la demeure de Gray et découvre son secret : il ne vieillit plus depuis qu'un portait de lui le fait à sa place, devenant le reflet exact de son âme. Malcolm commence à réaliser que son comportement a trop changé pour que ce soit naturel. Alors que la traduction du Verbis Diablo révèle que le maître vampire était le frère de Lucifer, Evelyn Poole tente de prendre possession de l'esprit de Malcolm, mais avec l'aide de Sembene, il parvient peu à peu à se libérer du sort de la sorcière et jure vengeance. Il part seul l'affronter et se fait vite capturer. Evelyn lui offre une chance de la rejoindre avant de le laisser affronter son pire cauchemar : la vengeance de sa famille décédée. Pendant ce temps, Caliban réalise que Lily a parfaitement conscience de sa situation d'expérience de mort après la vie et ne fait que profiter de cette chance pour se venger de sa vie passée.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 10, "L'enfer est mon seul ennemi", 9, "Avec la disparition de sir Malcolm, Frankenstein rappelle Vanessa et Ethan pour les faire revenir à Londres et préparer la contre-attaque ; la médium et le tireur laissent derrière eux le corps de Warren, qui les avait retrouvé mais qu'ils ont tué. Lyle avoue son double-jeu et préfère se ranger dans le camp de Vanessa, craignant trop la puissance des sorcières. Ethan sait que Rusk est à ses trousses et que la pleine lune approche, aussi veut-il repousser l'attaque à la journée du lendemain pour gagner du temps. Hecate rend alors une visite secrète à Ethan pour le tenter et lui offrir une place aux côtés du Diable, en tant que Lupus Dei. Quand Vanessa part seule dans la nuit, Victor, Lyle, Ethan et Sembene n'ont d'autre choix que de partir à son secours. ");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 10, "Et ils furent ennemis", 10, "Vanessa fait face au démon qui lui parle et lit en elle à travers la marionnette à son effigie créée par Evelyn Poole. Le Diable lui fait miroiter ses plus profonds désirs, une vie de famille normale aux côtés d'Ethan Chandler, mais alors qu'elle semble tentée, elle refuse et utilise le Verbis Diablo contre la marionnette pour rompre son lien avec le Diable. Evelyn Poole sent alors sa jeunesse lui échapper et tente de tuer Vanessa. Malcolm et Lyle tuent deux des sorcières avant de retrouver le corps sans vie de Sembene et de quitter le manoir. De son côté, Caliban découvre que ses employeurs espèrent sa coopération pour son freak show mais il préfère les tuer et laisser derrière lui leur fille aveugle éplorée, alors qu'elle exprimait tout son mépris pour lui.L'heure est au bilan pour les différents personnages : Malcolm retourne en Afrique rendre le corps de Sembene à son pays, Victor découvre le couple déviant et immortel de Lily et Dorian Gray, qui le dévaste et le plonge encore plus dans la drogue, Ethan préfère se rendre à la police plutôt que de fuir avec Vanessa et la mettre en danger devant sa condition.");
+
+
+******************************************************************************************
+SAISON 3
+******************************************************************************************
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 11, "Le jour où Tennyson est décédé", 1, "Sir Malcolm rencontre une mystérieux natif américain en Afrique. Frankenstein reçoit la visite d'un ancien ami : le Dr Jekyl. Vanessa, quant à elle, cherche l'aide d'un intriguant et intéressant docteur.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 11, "Prédateurs proches et lointains", 2, "Lily et Dorian sauve une jeune femme. Sir Malcolm continue son séjour avec l'énigmatique Kaetenay, Ethan reçoit une aide inattendue de la part de Hecate. La relation entre Vanessa et Dr Sweet évolue, mais les forces du mal traquent le moindre de ses mouvements.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 11, "Le Bien et le Mal entrelacés", 3, "Ethan accepte de faire route avec Hecate, bien qu'il ne lui fasse pas confiance et qu'il cerne mal ses motivations. Ils ont suivis dans le désert par Sir Malcolm et Kaetenay, mais également Rusk et la police américaine, qui suivent les morts laissés par Hecate pour la traversée à venir. Vanessa continue sa thérapie avec le Dr Seward, qui refuse de croire à l’existence des monstres qui la hantent. Pendant ce temps, Frankenstein découvre les miracles du sérum du Dr Jekyll et pense à les combiner à un choc électrique pour faire durer les effets. Dorian Gray et Lily initient Justine à leur vision du monde et en font la première recrue d'une armée de femmes assoiffées de vengeance sur la société.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 11, "Un brin d'herbe", 4, "Vanessa commence sa séance d'hypnose avec le Dr Seward et remémore le visage de la seule personne qui l'ait aidé pendant ses cinq mois en hôpital psychiatrique : le gardien de nuit, qui après sa mort deviendra Caliban. Cependant, le Diable s'est manifesté à travers lui pour la tourmenter. Lors de sa deuxième manifestation, Vanessa a pu assister à l'apparition, toujours à travers le gardien, des deux frères déchus par Dieu et rivaux : le Diable, qui souhaite son âme, et Dracula, qui désire son corps. Connaissant désormais ses ennemis, Vanessa s'est alors résolue à les combattre, mais les médecins ont préféré la trépaner. Le gardien, touché par la condition de Vanessa, a préféré donner sa démission. Le Dr Seward sort péniblement Vanessa de sa transe. Désormais, Vanessa se souvient du nom de son ennemi.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 11, "This World Is Our Hell", 5, "Hecate et Ethan avancent dans le désert, devenu aride, tout en étant poursuivis par Rusk et les marshalls, eux-mêmes rattrapés par sir Malcolm et Kaetenay. À mesure que l'eau vient à manquer, l'histoire d'Ethan se révèle : enrôlé de force dans l'armée par son père, il s'est retrouvé contraint de massacrer les Apaches un à un jusqu'à l'écœurement, mais Kaetenay lui a refusé le pardon et l'a forcé à s'attaquer aux ennemis des Apaches. Hecate profite de sa haine envers sa famille et les Apaches pour le tenter de rejoindre les rangs de Lucifer. Elle utilise le sang du Lupus Dei pour invoquer des crotales qui déciment les marshalls ; pendant l’attaque, Kaetenay est mordu. À Londres, Jekyll et Frankenstein parviennent à mettre au point un protocole combinant les domaines de recherche des deux hommes pour guérir un homme de sa rage meurtrière. Frankenstein retrouve l'espoir de récupérer Lily.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 11, "Nulle bête plus féroce", 6, "Tandis que Rusk se rapproche dangereusement d'Ethan, Justine sème la discorde entre Dorian et Lily, et Vanessa gagne un nouvel allié contre le mal qui la pourchasse.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 11, "La mer se retire", 7, "Tandis que Lily, exaltée, charge sa légion de femmes d'une mission macabre, Vanessa fait un choix dangereux, et les visions de Kaetenay guident Ethan vers son destin.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 11, "Nuit perpétuelle", 8, "Alors qu'une épidémie apocalyptique s'abat sur Londres, Victor décide du sort de Lily, et Ethan se retrouve nez à nez avec le mal qui a séduit Vanessa.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 11, "La nuit sacrée", 9, "Tandis qu'Ethan découvre une vérité insoutenable, la Créature fait face à un choix moral déchirant. Sir Malcolm et ses alliés s'attaquent au démon qui a ravi Vanessa.");
+

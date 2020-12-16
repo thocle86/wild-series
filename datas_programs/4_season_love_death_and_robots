@@ -1,0 +1,2 @@
+INSERT INTO season (id, program_id, number, year, description) VALUES 
+(NULL, 4, 1, 2019, "Un yaourt susceptible, des soldats lycanthropes, des robots déchaînés, des monstres-poubelles, des chasseurs de primes cyborgs, des araignées extraterrestres et des démons de l'enfer assoiffés de sang : tout ce beau monde est réuni dans 18 courts d'animation déconseillés aux âmes sensibles (par Tim Miller et David Fincher).");

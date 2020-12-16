@@ -1,0 +1,11 @@
+UPDATE season SET description = 
+"Londres, 1891. Vanessa Ives, une jeune femme aux pouvoirs puissants et hypnotiques, s’allie à Ethan Chandler, un homme rebelle et violent, ainsi qu’à Sir Malcolm, un homme riche d’un certain âge aux ressources intarissables. Ensemble, ils combattent une menace quasi invisible qui massacre la population."
+WHERE id = 16;
+
+UPDATE season SET description = 
+"Alors que les étranges pouvoirs de Vanessa Ives se développent, des forces sournoises lancent des sorts à ses proches. Dans ce monde troublant, où les personnages les plus emblématiques et terrifiants de la littérature errent dans les rues, des alliances improbables se forment pour combattre des tentations inimaginables."
+WHERE id = 17;
+
+UPDATE season SET description = 
+"Et si le seul moyen de combattre nos démons était de les laisser prendre le dessus ? Confrontés à de nouvelles atrocités dans de nouvelles contrées, Ethan Chandler, Dr. Frankenstein, Dorian Gray, Sir Malcolm, la Créature ainsi que la funeste Lily doivent chacun affronter et ne faire plus qu’un avec la facette la plus monstrueuse de leur personnalité. Mais pour Vanessa Ives, accepter ses démons pourrait lui coûter très cher et plonger le monde dans d’éternelles ténèbres."
+WHERE id = 18;

@@ -1,0 +1,35 @@
+******************************************************************************************
+SAISON 1
+******************************************************************************************
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 4, "Le fantôme", 1, "En enquêtant sur une histoire de fantômes pour son prochain roman, Steven, sceptique, reçoit un appel de sa soeur déclenchant une série d'événements fatidiques...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 4, "Le cercueil ouvert", 2, "Une tragédie familiale ravive des souvenirs traumatisants et rappelle à Shirley sa première confrontation avec la mort, réveillant alors de vieilles angoisses.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 4, "Le don", 3, "Theo se retrouve en une jeune patiente en souffrance, une jeune fille hantée par le rictus menaçant d'un certain M. Sourire...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 4, "Les jumeaux", 4, "Luttant toujours contre l'addiction et une peur obsédante, Luke vient en aide à une personne en détresse, tout en sentant sa soeur jumelle en danger.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 4, "La dame au cou tordu", 5, "Un esprit maléfique à l'apparence effrayante hante Nell depuis l'enfance. La "dame au cou tordu" est maintenant de retour, et se rappelle à la jeune femme...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 4, "Les deux tempêtes", 6, "La famille se réunit en de tristes circonstances, tandis que Hugh, revenu spécialement pour l'enterrement, retrouve ses enfants lors d'une soirée orageuse...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 4, "L'éloge funèbre", 7, "Alors que les Crane font leurs derniers adieux, un flashback révèle le lien unissant M. Dudley à la maison et dévoile un secret caché dans ses murs...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 4, "Les marques témoins", 8, "La nuit d'Halloween, un fantôme du passé revient hanter Shirley et Theo. De leur côté, Hugh et Steve partent à la recherche de Luke, disparu mystérieusement...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 4, "Les mauvais rêves", 9, "
+Luttant pour discerner les rêves de la réalité, Olivia craint pour la sécurité de ses enfants, un instinct maternel encouragé par Mme Dudley...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 4, "Le silence pesait lourdement", 10, "Les secrets de la chambre rouge sont enfin révélés, tandis que les Crane reviennent affronter de vieux fantômes, de terribles mystères et le Mal en personne...");
+

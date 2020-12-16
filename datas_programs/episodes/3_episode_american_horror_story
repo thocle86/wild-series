@@ -1,0 +1,128 @@
+******************************************************************************************
+SAISON 1
+******************************************************************************************
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "La maison", 1, "Les Harmon semblent constituer la famille américaine parfaite, mais les apparences sont trompeuses. Vivien, la mère, ancienne violoncelliste, a renoncé à la musique depuis longtemps. Elle ne se remet pas du traumatisme causé par une fausse couche douloureuse et l’aventure extraconjugale de son mari, Ben. Ce dernier, psychiatre, a eu une liaison avec une de ses étudiantes. Leur fille...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "Intrus", 2, "Vivien et Ben se réconcilient peu à peu. Vivien annonce à Ben qu’elle est de nouveau enceinte. Dans le même temps, il reçoit un appel de sa maîtresse, Hayden, qui le supplie d’accepter une dernière rencontre. Cédant à la tentation et à la culpabilité, Ben part la retrouver à Boston, un soir. Alors qu’elles sont seules à la maison, Vivien et Violet sont agressées par trois...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "La maison de l'horreur", 3, "Alors que sa grossesse se développe normalement, et malgré les objections de Ben et de Violet, Vivien prend la décision de mettre la maison en vente. Toutes ses tentatives pour attirer des acheteurs potentiels sont infructueuses, le manoir souffrant de sa réputation sanglante. Pour y voir plus clair, Vivien décide de rechercher elle-même les premiers propriétaires de la maison...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "Halloween - 1ère partie", 4, "La ligne entre les vivants et les morts est plus fine que jamais dans le manoir des Harmon en ce jour d'Halloween. Deux des anciens résidents donnent des conseils en décoration à la famille...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "Halloween - 2ème partie", 5, "Une véritable complicité amoureuse s’est instaurée entre Violet et Tate qui décident de passer la nuit d’Halloween sur la plage. Leur rendez-vous est interrompu par l’arrivée d’un groupe de jeunes agressifs qui ont bien l’intention de passer le jeune homme à tabac. Vivien reçoit un inquiétant coup de téléphone pendant que Violet obtient des informations sur Tate qui aggravent...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "Monsieru le porc", 6, "Intriguée par les événements récents, Violet enquête et finit par découvrir sur Internet le secret de Tate. Elle décide de prendre conseil auprès de leur voisine, Constance. Alors que Ben aide un nouveau patient à affronter ses angoisses, Vivien se voit imposer par Constance un régime peu ragoûtant supposé être excellent pour la santé de son bébé...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "Propriété à vendre", 7, "À l’issue d’un nouvel examen obstétrique, Ben et Vivien apprennent qu’ils sont les futurs parents de jumeaux. La maison, par ailleurs, intéresse sérieusement un homme d’affaires, qui entend acquérir le lieu pour y faire de profondes modifications. Alors que Violet et Tate poursuivent leurs recherches sur les premiers propriétaires de la maison, Ben et Vivien s’inquiètent de voir...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "L'homme en latex", 8, "Ben découvre que Violet a séché ses cours au lycée. Il tente de la raisonner mais durant le face à face avec sa fille elle le renvoie à l’état préoccupant de sa femme. Alors que Moira, la femme de chambre, est devenue sa confidente privilégiée, Vivien souffre de crises d’hallucinations. Décidant de se confier à Ben, celui-ci établit un diagnostic sans appel de désordre mental...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "Le Dahlia noir", 9, "Vivien, victime de visions cauchemardesques récurrentes, est internée en hôpital psychiatrique. Ben est informé qu’une anomalie a été détectée dans le déroulement de la grossesse de sa femme. Profitant de l'absence de Vivien, Hayden réapparaît pour tenter de séduire Ben...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "L'aveu", 10, "Ben reçoit la visite de la police qui l’informe que Violet ne s’est toujours pas présenté au lycée et qu’elle risque d’être convoquée prochainement au tribunal. Ben doit parallèlement gérer seul d’autres tracas domestiques : il a fait appel aux services d’un dératiseur pour venir à bout d’une invasion d’insectes nuisibles...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "La naissance", 11, "Alors que leur relation est de plus en plus conflictuelle, Ben exige de Violet qu’elle l’accompagne à l’hôpital pour rendre visite à sa mère. Effrayée par le sombre passé et la personnalité psychotique de Tate, Violet décide finalement de rompre avec lui. A peine rentrée de l’hôpital, Vivien est subitement prise de contractions...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "Trois ans plus tard", 12, "Vivien est contrainte d’accoucher à la maison. Après les longues et terribles épreuves de ces derniers mois, Ben, Vivien et Violet commencent enfin à rebâtir leur vie de famille sur de nouvelles bases...");
+
+
+******************************************************************************************
+SAISON 2
+******************************************************************************************
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "Bienvenue à Briarcliff", 1, "Leo et Teresa, deux jeunes tourtereaux à la recherche de sensations fortes, ont entrepris de visiter les lieux les plus inquiétants des États-Unis. Lorsqu'ils débarquent dans une vieille bâtisse qui a été anciennement un hôpital psychiatrique, fermé depuis les années 70, ils se retrouvent à la merci d'un homme masqué et ensanglanté...En 1964, Sœur Jude dirige d'une main de fer la clinique psychiatrique de Briarcliff aux alentours de Boston jusqu'à ce que les patients, qui font l'objet d'expérimentations secrètes et particulièrement cruelles, se rebellent contre l'autorité en place. L'arrivée d'un nouvel élément perturbateur, surnommé Bloody Face et dont on dit qu'il a décapité et dépecé trois femmes, dont sa petite amie, entraîne une escalade de violence...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "Exorcisme", 2, "A la veille de Halloween, Wendy est désespérée à l'idée de ne plus jamais revoir sa petite amie Lana, enfermée contre son gré dans l'hôpital psychiatrique de Briarcliff par sa faute. La jeune femme a dans l'idée de s'évader et échafaude un plan avec Grace, une autre patiente avec qui elle a sympathisé. Mais Sœur Jude n'est pas facile à duper. La veille femme a cependant de quoi s'occuper lorsqu'elle reçoit la visite de parents dépités qui ne savent plus quoi faire pour aider leur fils, un jeune homme très perturbé qui a vidé de son sang un cheval et dévoré son cœur. La directrice de l'établissement ne voit qu'une solution pour remédier à cela : faire appel à un exorciste, son cher ami Monseigneur Timothy Howard, sur qui elle ne peut s'empêcher de fantasmer malgré ses engagements auprès de Dieu. Son passé serait-il en train de la rattraper ?");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "La tempête", 3, "C'est Halloween et une tempête est annoncée. Pour calmer tout le monde, soeur Jude organise la projection d'un film. Cela ne l'empêche pas d'être hantée par ses souvenirs. Pendant ce temps, Mary Eunice, possédée par le démon, commence à répandre le chaos dans l'établissement, tuant un patient...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "Anne Frank (Partie 1)", 4, "Un patient qui vient d'être interné à l'hôpital prétend être Anne Frank. Sister Jude n'en croit pas un mot jusqu'à ce que le doute s'immisce en elle au moment où la femme dit reconnaître Arden comme l'un de ses anciens bourreaux nazis. Le Dr. Thredson redonne quant à lui de l'espoir à Lana quand il lui annonce qu'il ne partira pas sans elle. Kit découvre la vérité sur le passé trouble de Grace...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "Anne Frank (Partie 2)", 5, "Afin d'assembler des preuves sur la véritable identité d'Arden, Sister Jude engage un détective spécialisé dans la chasse de nazis. Lana, de son coté, est fin prête à quitter l'institut en compagnie du Dr. Thredson...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "Les origines de la monstruosité", 6, "Une mère abandonne sa fille qu'elle pense possédée à Briarcliff, alors que Sister Jude vient de refuser de la garder car il n'y a pas d'unité spécialisée pour les enfants au sein de l'hôpital. Rapidement, la petite se lie d'amitié avec Mary Eunice, dont elle semble partager la folie. Pendant ce temps, le Monseigneur Howard découvre les manigances du Dr Arden. Loin du bâtiment, Lane est enfermée chez Bloody Face et apprend avec horreur son histoire. Elle tente de s’échapper, en vain...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "L'ange noir", 7, "Les âmes persécutées du manoir de Briarcliff reçoivent la visite de l'Ange de la Mort, venu leur proposer un dernier baiser avant d'embrasser leur destin. Grace est ainsi retrouvée ensanglantée dans son lit, mais nul ne sait encore si elle a décidé de rendre son dernier souffle. Lana, loin de là, réussit à s'échapper de chez Bloody Face après qu'il l'ait violée, mais pour mieux tomber dans un autre piège...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "Une nuit pas très sainte", 8, "Soeur Jude revient à Briarcliff, mais soeur Mary Eunice et le docteur Arden la font expulser. Pour Noël, soeur Mary Eunice organise une fête dans la salle commune et demande à Leigh Emerson, un psychopathe qui a abattu 18 personnes deux ans auparavant à la même période, de revêtir le costume du Père Noël. Lana s'aperçoit que Kit se trouve aussi à l'infirmerie. Il lui apprend que Grace est morte et elle lui révèle l'identité de Bloody Face...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "Expériences", 9, "Tandis que Kit et Arden doivent unir leurs forces pour combattre ce qui a volé le corps de Grace, Lana apprend par le biais de Sœur Mary Eunice une terrible nouvelle. Quant à Jude, elle est de retour à Briarcliff, mais cette fois en tant que patiente ! Au présent, le nouveau Bloody Face commet un nouvel acte de barbarie et révèle qui il est vraiment à sa psychiatre...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "La mort du diable", 10, "Monseigneur Howard se remet à peine de ses blessures, mais Sœur Mary Eunice n'a pas l'intention d'arrêter de le tourmenter. Bien au contraire... Elle a aussi un plan pour Sœur Jude, désormais devenue patiente de Briarcliff. Elle commence par lui administrer une dose d'électrochocs, qui affecte sa mémoire et la désoriente...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "Le lait maternel", 11, "Grâce au Dr Thredson, Kit et Grace se retrouvent. Mais il y a évidemment un prix à payer... Pendant ce temps, les mots de Jude au sujet de Lana et à l'attention de la Mère Supérieure Claudia ne tombent pas dans les oreilles d'une sourde. Celle-ci a décidé d'aider la journaliste à sortir de l'institut...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "Continuum", 12, "Dans leur maison à la campagne, Kit, Alma et Grace vivent en harmonie avec leurs enfants, jusqu'à ce que les vieilles pulsions de la meurtrière refassent surface. Pendant ce temps, à Briarcliff, Sœur Jude est toujours enfermée et l'admission d'un nouveau patient risque de ne pas arranger son sort...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "L'orage qui menace", 13, "Quelques années plus tard, après une belle carrière et six best-sellers, Lana Winters est devenue une personnalité incontournable dans le milieu journalistique. A l’occasion d’une interview, elle se replonge dans de vieux souvenirs, notamment à l’époque de Briarcliff. Son récit permet de révéler le sort que le destin a réservé à Sœur Jude, sa croisade pour faire fermer le manoir et la véritable histoire de Bloody Face…");
+
+
+******************************************************************************************
+SAISON 3
+******************************************************************************************
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "Les sorcières de la Nouvelle-Orléans", 1, "Zoe, une jeune adolescente, apprend à ses dépends qu'elle fait partie d'une longue lignée de sorcières. Elle est envoyée dans une école spécialisée à la Nouvelle-Orléans, dirigée par Cordélia Foxx, chargée de lui enseigner comment contrôler ses pouvoirs, et surtout sauvegarder une descendance précieuse. Elle y fait la connaissance d'autres sorcières en herbe. Près d'ici, les médias relaient le cas d'une jeune femme brûlée sur un bûcher improvisé. Serait-on revenu aux temps de Salem ? Fiona Goode, l'une des plus puissantes sorcières de son époque, refait surface en ville, déterminée à s'impliquer dans l'avenir de la nouvelle génération, quitte à relancer de vieilles rivalités...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "Résurrection", 2, "Deux policiers viennent interroger Madison et Zoe sur l’accident de l’autocar et les événements de la nuit. Fiona efface de leur esprit les confessions de Zoe. Alors qu'elle séquestre Mme LaLaurie dans sa chambre, Fiona apprend comment un sort de Marie Laveau l’a neutralisée après avoir tué les siens. Madison et Zoe jouent au docteur Frankenstein et ressuscitent Kyle. À la demande de...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "Succession", 3, "Zoe se présente chez la mère de Kyle et lui annonce qu’elle reverra son fils. Fiona fait de Delphine LaLaurie la domestique de l’Académie. Devant sa réticence à servir Queenie, elle lui impose de devenir sa servante particulière. Madison et Nan rendent visite au nouveau voisin, Luke. Désespérée par sa stérilité, Cordelia demande à la prêtresse vaudoue, Marie Laveau, de l’aider...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "Petites farces entre amies", 4, "Fiona soigne Queenie, qui a été violée et gravement blessée. La guerre avec Marie Laveau est ouverte et Fiona lui fait parvenir la tête tranchée du Minotaure. Zoe vient retrouver Kyle qui s’échappe de chez lui couvert de sang. N’entendant plus Madison "dans sa tête", Nan convoque les trois membres du Conseil de la sorcellerie. Hank prétend être en voyage d’affaires alors qu’il...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "Brûle, sorcière, brûle!", 5, "À l’hôpital, Fiona est effondrée d’apprendre que l’agression à l’acide a rendu Cordelia aveugle. Pendant ce temps une armée de zombies attaque l’Académie. Nan protège tant bien que mal Luke en dangereuse posture. Zoe se découvre de nouveaux pouvoirs et décime les morts-vivants à la tronçonneuse. Cordelia repousse Hank venu à son chevet : sa cécité lui permet de voir ce...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "L'homme à la hâche", 6, "En cherchant à retrouver Madison, Zoe, Queenie et Nan entrent en contact avec l’esprit du tueur à la hache piégé dans le bâtiment depuis 1919. Elles découvrent ainsi le corps de Madison caché par Spalding dans le grenier. Kyle débarque chez Misty au milieu des bayous, mais alors qu’elle lui fait prendre un bain, il est pris d’une crise de violence. Zoe survient et le calme. Misty...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "Tous morts", 7, "Fiona a rendez-vous avec l'homme à la hache, que compliquent les effets secondaires de sa chimiothérapie. Zoe utilise la magie pour faire parler Spalding. Elle l'interroge et le tue quand il avoue que Fiona a assassiné Madison. Cette dernière, fraichement ressuscitée, tisse de liens avec Kyle...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "La prise sacrée", 8, "Queenie livre madame LaLaurie à Marie Laveau. Paniquée, Misty Day se réfugie à l'Académie. Elle affirme être poursuivie par un mystérieux ennemi. Avec les filles, Cordelia organise un rituel qui doit permettre l'avènement de la nouvelle Suprême. Cependant Fiona doit d'abord céder sa place en se suicidant. Luke est sévèrement puni par sa mère et Nan tente de venir à son secours...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "Chasseur de sorcières", 9, "Fiona propose à Marie Laveau une alliance avec l'Académie pour faire face aux chasseurs de sorcières. Marie décline son offre. Myrtle tue les deux autres membres du Conseil et prélève un oeil à chacun d'eux, qu'elle implante dans les orbites de Cordelia. Celle-ci perd son pouvoir visionnaire. Luke est dans le coma. A son chevet, Nan traduit ses pensées : son père n'est pas mort...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "Voie céleste, voie démoniaque", 10, "Marie et Fiona s'allient pour se défendre contre les chasseurs de sorcières. Nan développe de nouveaux pouvoirs pendant que Madison cherche à évincer ses concurrentes pour être certaine de devenir la Suprême. Fiona montre à Misty les nombreux avantages qu'offre cette position que convoite tant de sorcières en lui faisant rencontrer son idole, Stevie Nicks. Papa Legba se présente à Marie Laveau...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "La protection de l'assemblée", 11, "La Nouvelle-Orléans en 1830. Delphine arrive dans la ville et découvre rapidement qu'elle aime voir couler le sang et torturer des innocents. Près de deux siècles plus tard, Delphine retourne à ses vieilles habitudes pour passer le temps. Marie et Fiona affrontent les chasseurs de sorcières alors que Cordelia se sacrifie pour protéger son école...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "Va en enfer !", 12, "Sentant la mort approcher, Fiona tente de se racheter et fait ses adieux à Cordelia. Elle lui offre également un bijou de famille. Cordelia retrouve alors son don de vision et découvre un sombre futur pour l'école. Elle décide de contacter le tueur à la hache et partage avec lui ses visions. Pendant ce temps, Queenie tue Delphine LaLaurie, ce qui provoque la mort de Marie, leurs destins étant liés...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "Les sept merveilles", 13, "Pour désigner la prochaine Suprême, Zoe, Madison, Misty et Queenie passent des épreuves : sept tests, qui demandent une grande maîtrise de la magie et beaucoup de courage. Elles franchissent les premières étapes avec succès, jusqu'au moment où elles doivent se rendre en Enfer et en revenir...");
+

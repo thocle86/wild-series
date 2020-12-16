@@ -1,0 +1,8 @@
+INSERT INTO season (id, program_id, number, year, description) VALUES 
+(NULL, 1, 1, 2010, "Après avoir été blessé dans l’exercice de ses fonctions, le shérif Rick Grimes se réveille d’un coma de plusieurs semaines et découvre un monde post-apocalyptique où la quasi-totalité de la population américaine s’est transformée en zombies. Seul et déboussolé, Rick se rend à Atlanta pour rechercher sa femme Lori et son fils Carl. Sur son chemin, il fera la rencontre d’autres survivants avec lesquels il tentera de rester en vie dans ce monde métamorphosé, effrayant et périlleux.");
+
+INSERT INTO season (id, program_id, number, year, description) VALUES 
+(NULL, 1, 2, 2011, "A la suite de l’explosion du CDC, Rick et son groupe fuient Atlanta alors que la ville est infestée de zombies. Confrontés à une nouvelle menace, ces derniers trouvent refuge dans la ferme d’Hershel Greene, un homme dont la famille cache un terrible secret. Mais les liens du groupe sont mis à rude épreuve lorsque des tensions éclatent entre les survivants et les habitants de la ferme, mais également entre Rick et Shane.");
+
+INSERT INTO season (id, program_id, number, year, description) VALUES 
+(NULL, 1, 3, 2012, "Quelques mois après avoir abandonné la ferme d’Hershel, Rick et sa communauté de survivants découvrent une prison abandonnée dans laquelle s’installer. Mais la sécurité du groupe se trouve rapidement menacée par la communauté voisine dirigée par un homme impitoyable, surnommé le Gouverneur.");

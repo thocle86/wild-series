@@ -1,0 +1,138 @@
+******************************************************************************************
+SAISON 1
+******************************************************************************************
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 12, "Pilote", 1, "A Los Angeles, lors d'une journée ordinaire, Madison Clark, une conseillère d'éducation, récupère son fils en état de choc. Alors qu'elle tente de comprendre ce qui s'est passé, il semble qu'une étrange maladie infectieuse se répande dans la Cité des Anges : les gens se transforment en zombies. Madison, ses enfants et son fiancé Travis tentent de survivre à cette urgence...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 12, "Si proche et pourtant si loin", 2, "
+Alors que Madison lutte pour la survie de son fils Nick, très mal en point, Travis recherche le sien, Chris, avant que la ville de Los Angeles ne sombre dans le chaos. Madison retourne au lycée pour chercher des médicaments pour Nick et rencontre Tobias, un élève qui avait pressenti le danger de l'infection...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 12, "Le chien", 3, "Les émeutes dévastent le centre-ville : Travis, Chris et Liza, accompagnés de la famille Salazar, tentent de trouver un endroit sûr pour échapper à la violence qui s'empare de Los Angeles. En fuyant, Griselda Salazar se blesse sérieusement. Chez eux, Madison, Nick et Alicia constatent que leur voisin rôde autour de la maison...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 12, "Quarantaine", 4, "Madison et Travis voient arriver la Garde Nationale dans leur quartier alors que l'atmosphère devient de plus en plus anxiogène avec l'infection qui progresse. La famille tente de s'adapter à ce nouveau monde de chaos qui prend forme sous leurs yeux...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 12, "Cobalt", 5, "Dans la zone résidentielle surveillée par l'armée, Madison, Travis et les Salazar sont inquiets au sujet de Nick et de Liza, qui sont partis avec les militaires dans un lieu tenu secret. Daniel Salazar, avec la complicité de sa fille Ofelia, retient prisonnier un soldat et le torture pour lui faire avouer les véritables intentions des militaires...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 12, "L'homme bon", 6, "Dans leur zone résidentelle, Travis, Daniel, Madison et leurs familles comprennent qu'une évacuation générale va avoir lieu. Ils décident de prendre les devants et de partir, et de délivrer Nick, Liza et Griselda du centre de rétention militaire. Pour cela, Daniel pense avoir le moyen de créer une diversion avec les zombies retenus dans le stade tout proche...");
+
+
+******************************************************************************************
+SAISON 2
+******************************************************************************************
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 13, "La Loi de la Jungle", 1, "Madison, Travis et leurs enfants fuient Los Angeles, qui a basculé dans le chaos. Accompagnés de Daniel et de sa fille, Ofelia, ils embarquent sur l'Abigail, le bateau de Victor Strand, ignorant que l'épidémie s'est répandue dans le monde entier. Le petit groupe espère regagner la terre ferme et y trouver un refuge. L'opération Cobalt, déployée par les militaires qui bombardent les territoires du Sud pour enrayer la propagation, repousse les morts-vivants vers les côtes. Madison, Travis, Daniel et leurs familles endeuillées, se rendent vite compte qu'ils ne sont pas en sécurité sur l'eau...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 13, "A La Dérive", 2, "Les membres de la tribu trouvent refuge au sein d'une famille survivaliste. Madison, inquiète, tente de comprendre les vraies motivations de ce petit groupe, dont le comportement est alarmant. Travis, quant à lui, ne semble pas se méfier. De son côté, Salazar tente de découvre les intentions de Victor Strand, qui ne semblent pas claires à ses yeux...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 13, "Ouroboros", 3, "Les survivants du vol 462 cherchent à survivre à bord d’un radeau, mais la cohabitation se relève épineuse. Pendant ce temps, Madison interroge Strand sur leur mystérieuse destination. Nick, Alicia et les autres entreprennent de retourner sur la terre ferme pour trouver des médicaments permettant de soigner la blessure d’Ofelia.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 13, "Quarantaine", 4, "Le groupe accueille sur l'embarcation une nouvelle famille, en situation de détresse. Nick part à la recherche d'un associé de Strand, dont le passé refait peu à peu surface. L'homme est loin de faire l'unanimité parmi ses hôtes...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 13, "Captive", 5, "Sur le yacht Abigail, Connor prépare un repas pour Alicia et lui dit qu'il veut apprendre à mieux la connaître. Une coupure de courant le pousse à mettre pied à terre. Vida en profite pour essayer d'enfermer à Alicia, mais celle-ci parvient à s'échapper, mais ne peut pas quitter le navire. Elle croise Jack et lui demande des nouvelles de sa famille. Pendant ce temps, dans une cabane, Daniel soigne la blessure de Reed...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 13, "Sicut Cervus", 6, "Sur le yacht Abigail, Connor prépare un repas pour Alicia et lui dit qu'il veut apprendre à mieux la connaître. Une coupure de courant le pousse à mettre pied à terre. Vida en profite pour essayer d'enfermer à Alicia, mais celle-ci parvient à s'échapper, mais ne peut pas quitter le navire. Elle croise Jack et lui demande des nouvelles de sa famille. Pendant ce temps, dans une cabane, Daniel soigne la blessure de Reed...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 13, "Shiva", 7, "La famille doit relever le plus grand défi auquel elle a été confrontée jusque-là. Cette nouvelle épreuve fait office de test pour le groupe. Madison reste sur ses gardes et demande à sa fille de garder ses distances avec Celia. Nick, Travis et les autres tentent de rester aussi unis que possible face aux dangers qui guettent. Chris, quant à lui, semble incontrôlable...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 13, "Grotesque", 8, "Par une nuit de pleine lune, un homme, armé d'un batte de baseball, pénètre dans une demeure ou dorment plusieurs personnes, ce qui ne présage rien de bon pour ceux qui ont survécus aux attaques de zombies. Sur les routes, les morts vivants, en nombre, cherchent toujours leur pitance. Ils trouvent sur leur chemin une opposition farouche. Les armes vont parler...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 13, "Los Muertos", 9, "Après la chute du campement, Madison, Strand et le reste du groupe tentent d'aller de l'avant, empruntant une voie quelque peu précaire. Parallèlement, Nick est recruté pour une mission qui se révèle dangereuse...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 13, "Ne pas déranger", 10, "Travis peine à entrer en connexion avec Chris. Tout en cherchant à établir le contact, il se met en quête d'un refuge. Alicia croise la route d'une femme solitaire, qui semble avoir un passé sanglant...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 13, "Pablo et Jessica", 11, "Alicia et Madison oeuvrent de concert pour tenter d'unifier deux factions rivales. Pendant ce temps, Nick s'appuie sur des compétences acquises dans sa vie passée pour occuper un nouveau rôle au sein de la colonie...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 13, "Statues de sel", 12, "Les infectés font leur retour. La colonie est en danger et doit être confinée. Dans cette atmosphère, Alejandro change brusquement d'attitude et dévoile son côté sombre. A l'hôtel, Madison dicte sa loi et doit passer à l'action lorsqu'un des résidents devient violent. Strand est blessé...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 13, "Date de décès", 13, "Attirés par les néons allumés par Maddie, des réfugiés sont arrivés en masse devant la barricade de l’hôtel. Alors que le groupe monte la garde et refuse de les laisser entrer, Madison aperçoit un visage familier dans la foule. De son côté, Alicia découvre les véritables raisons de la mort de son père.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 13, "Colère", 14, "Alors que Travis apprend une nouvelle qui pourrait radicalement changer sa vie, Nick doit décider de quitter la Colonie ou de rester avec Luciana. De son côté, Ofelia poursuit sa route vers la frontière américaine.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 13, "Nord", 15, "Le comportement de Travis provoque des troubles à l’hôtel Rosario Beach, ce qui oblige Madison et Alicia à partir avec lui. A la Colonie, Nick et Luciana conduisent leur communauté vers la frontière américaine.");
+
+
+******************************************************************************************
+SAISON 3
+******************************************************************************************
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 14, "L'Œil du spectateur", 1, "A la frontière du Mexique, les rares familles de survivants continuent leur combat pour sauver l'humanité. Les divisions géographiques ont été abolies et il s'agit maintenant de reconstruire une société, dans un monde plus menaçant que jamais. Madison est désormais plus proche de Travis. Alicia, de son côté, est traumatisée...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 14, "La nouvelle frontière", 2, "Les membres de la famille Clark prennent possession de leur nouvelle habitation à l'issue d'un voyage harassant et périlleux. Ils espèrent s'y trouver en sécurité. De son côté, Strand doit faire face à une forte résistance alors qu'il tente de conserver le pouvoir sur son domaine...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 14, "Lfdmtqnlc", 3, "Madison est désormais plus proche de Travis. Alicia, de son côté, est toujours traumatisée. La jeune femme, qui cherche sa place, tout comme Nick, commence à fréquenter de nouvelles personnes. De son côté, Madison découvre que le passé d'Otto ressemble au sien...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 14, "100", 4, "Gravement blessé, Daniel Salazar reçoit une aide salvatrice. Mais la rencontre d’un chef local, qui contrôle les accès à une ressource vitale, pourrait bien faire remonter son violent passé de militaire au Salvador. Pour trouver la rédemption, Daniel va devoir faire des choix.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 14, "Brûler dans l'eau, se noyer dans les flammes", 5, "Alors que Troy et Madison essaient d’en savoir plus sur l’hélicoptère qui a été abattu, Qaletaqa Walker leur tend une embuscade. Pendant ce temps, Luciana insiste auprès de Nick pour partir à la recherche de sa famille et Strand conduit Daniel à l’hôtel pour qu’il retrouve Ofelia.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 14, "Terre de sang", 6, "La nouvelle d’un danger imminent se répand et sème la terreur auprès des survivants. Madison quant à elle fait son possible pour garder la communauté soudée, quitte à mentir pour préparer les siens au conflit qui arrive.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 14, "Révélation", 7, "Jake et Alicia arrivent à l’hôtel Black Hat pour obtenir une trêve entre le ranch et Qaletaqa Walker. Dans le même temps, Madison, Nick et Jeremiah remarquent leur disparition et décident d’organiser un raid pour les sauver. La sécurité de la communauté est plus en danger que jamais alors que plusieurs personnes tombent malades et se transforment en zombies.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 14, "Les Enfants de la colère", 8, "Alors que le ranch enterre ses morts, Madison fait face à Qaletaqa Walker afin de négocier les termes d’un accord de paix. De leur côté, Nick et Alicia s’interrogent sur les motivations de leur mère et Strand se dirige vers le nord.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 14, "Le Minotaure", 9, "Les indiens du Black Hat rejoignent la communauté de Broken Jaw. Alors que certains voient leur arrivée comme une menace, des tensions éclatent au sein du ranch. Au barrage, Daniel, Efrain et Lola distribuent de l’eau aux survivants et constatent avec effroi que les vivres sont devenus une monnaie d’échange.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 14, "Le Devin", 10, "Madison et Qaletaqa Walker partent en urgence à Mexicali pour trouver une solution à la pénurie d’eau dont le ranch est victime. Pendant leur absence, Alicia, Jake, Ofelia et Crazy Dog mettent en place un rationnement et tentent de maintenir la paix au sein de la communauté.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 14, "La Serpiente", 11, "Pour mener à bien une mission de réapprovisionnement en eau, le groupe recherche l'aide d'une autre communauté.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 14, "Frères ennemis", 12, "Le ranch s’apprête à faire face à la plus grave menace de sa courte existence et pourrait bien être condamné. Alors que Nick et Jake sont aux prises avec Troy, Alicia, Ofelia, Crazy Dog et Coop décident de défendre leur communauté plutôt que de fuir.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 14, "Cette Terre est votre Terre", 13, "Réfugiés dans un bunker, les habitants du ranch manquent de tout. Pour s’assurer de la survie de la communauté, Alicia, en tant que cheffe, doit prendre des décisions cruciales.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 14, "El Matadero", 14, "Désormais séparée du groupe, Alicia cherche comment mener son existence et fait la rencontre de Diana qui pourrait se révéler être une précieuse alliée. Pendant ce temps, Ofelia doit lutter pour ne pas mourir, tandis que Nick et Troy cherchent à se procurer des drogues.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 14, "Les Choses ont mal commencé", 15, "Les motivations de Strand éclatent au grand jour quand Nick découvre qu’une nouvelle menace plane sur le barrage. Au Marché, Alicia emmène Diana voir un médecin et se fait enrôler comme assistante sur une opération. Madison quant à elle fait une horrible découverte qui pourrait la conduire à commettre l’irréparable.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 14, "Balade en traîneau", 16, "Le barrage est attaqué et Strand doit choisir son camp pour montrer sa loyauté. Pour parvenir à s’échapper avec sa famille, Nick doit prendre des mesures extrêmes, alors que Madison doit faire face à des visions de son passé.");
+
+
+
+
+
+
+
+
+
+
+
+
+

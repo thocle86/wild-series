@@ -1,0 +1,62 @@
+******************************************************************************************
+SAISON #
+******************************************************************************************
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 1, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 2, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 3, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 4, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 5, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 6, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 7, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 8, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 9, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 10, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 11, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 12, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 13, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 14, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 15, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 16, "");
+
+
+
+
+
+
+
+
+
+
+

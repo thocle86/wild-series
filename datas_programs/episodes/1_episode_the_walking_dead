@@ -1,0 +1,562 @@
+******************************************************************************************
+SAISON 1
+******************************************************************************************
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 1, "Passé décomposé", 1, "Dans le Kentucky, Rick Grimes, un policier, se réveille à l'hôpital après plusieurs semaines de coma provoqué par une fusillade qui a mal tourné. Il découvre que le monde, ravagé par une épidémie, est envahi par les morts-vivants. Rick ne songe qu'à une chose : retrouver sa femme Lori et son fils Carl. Il se rend chez lui mais constate qu'ils ont disparu, puis rencontre Morgan et son fils Duane, qui se terrent dans leur maison. L'homme lui explique que la seule façon de tuer les zombies est de les atteindre à la tête. Il lui indique aussi qu'il existe un camp de réfugiés aux alentours d'Atlanta...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 1, "Tripes", 2, "Rick parvient à s'extraire du char et rencontre un groupe de survivants avec le jeune Glenn, Andrea, Morales, T-Dog et Merle Dixon, un homme passablement raciste et énervé. Tous sont réfugiés dans un immeuble et se demandent comment en sortir. Les zombies tentent de prendre d'assaut le bâtiment. Rick est obligé d'attacher Dixon pour le calmer car son attitude envers T-Dog envenime la situation. Le petit groupe pense d'abord à s'échapper par les égouts. Dans le camp de réfugiés à l'extérieur de la ville, Lori et Shane deviennent amants...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 1, "T’as qu’à discuter avec les grenouilles", 3, "Rick, Glenn et le petit groupe de survivants parviennent à rejoindre le camp de réfugiés situé dans les montagnes aux alentours d'Atlanta. Rick retrouve sa femme Lori et son fils Carl. Son ancien coéquipier, Shane, qui était devenu l'amant de Lori, est forcément surpris du retour de Rick. Le cas de Merle Dixon fait débat : fallait-il le laisser attaché sur le toit sans défense ? La découverte d'un mort-vivant aux abords du camp et le retour de Daryl Dixon, le frère de Merle, précipitent les choses : Rick décide de retourner à Atlanta pour délivrer Merle et récupérer des armes et des munitions...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 1, "Le gang", 4, "A Atlanta, Rick, Glenn, T-Dog et Daryl cherchent Merle, qui a réussi à s'enfuir malgré sa main coupée. En voulant récupérer le sac d'armes, ils rencontrent un autre groupe de survivants, qui eux aussi veulent s'emparer des munitions. Le gang capture Glenn et les deux parties vont devoir négocier. Au camp en dehors de la ville, alors qu'Andrea s'est rapprochée de sa soeur Amy, Jim montre des signes d'inquiétude. L'homme ne cesse de creuser des tombes et semble perdre toute notion de la réalité. Les autres habitants du camp décident de l'attacher de manière préventive...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 1, "Feux de fôret", 5, "Après l'attaque du campement, tous les survivants sont résignés et abattus. Andrea pleure sa soeur Amy, Shane reproche à Rick d'être parti à Atlanta et d'avoir laissé le camp sans renfort, mais c'est surtout l'état de santé de Jim qui inquiète. Il a été mordu par un mort-vivant et sa santé se dégrade. Rick cherche du soutien chez Lori et propose au groupe de quitter les montagnes pour essayer de trouver le centre de soins et de prévention des maladies infectieuses. Il pense que l'endroit est encore protégé par l'armée. Tous prennent la route alors que Jim est de plus en plus fiévreux...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 1, "Sujet-test 19", 6, "Rick et les survivants pénètrent dans le centre de soins et de recherche sur les maladies infectieuses. Là, le docteur Edwin Jenner les accueille. Il est le seul scientifique présent et vit seul depuis plusieurs mois. Après avoir profité d'un repos auquel ils n'avaient plus goûté depuis longtemps, Rick, Shane et le groupe se posent beaucoup de questions sur ce qui s'est passé dans le centre. Le docteur Jenner leur explique l'état le plus avancé de la recherche sur ce qui transforme les morts en zombies. Mais la situation n'est pas aussi idéale qu'il n'y paraît...");
+
+
+******************************************************************************************
+SAISON 2
+******************************************************************************************
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 2, "Ce qui nous attend", 1, "Les survivants se retrouvent bloqués sur une route envahie par des carcasses de voitures. Ils décident d'en profiter pour siphonner les réservoirs. C'est alors qu'ils sont surpris par un groupe de zombies. Dale tente de superviser les opérations du haut du camion, tandis que Sophia, imprudente, est poursuivie par un groupe de zombies tenaces. Rick parvient à tuer les créatures qui menaçaient Sophia mais la jeune fille disparaît. Rick et les autres se lancent à sa poursuite...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 2, "Saignée", 2, "Otis, le chasseur, a indiqué à Rick que les habitants de la ferme pourraient sauver Carl, blessé par balles. Le policier, qui porte son fils inconscient, tente désespérément de rejoindre la ferme. Le docteur Hershel Greene, propriétaire de l'endroit, pense pouvoir sauver le garçon en pratiquant une transfusion sanguine. Rick, qui possède le même groupe sanguin que son fils, donne son sang. Mais le médecin a besoin de matériel médical pour pouvoir opérer correctement. Otis et Shane se portent volontaires pour aller en chercher dans le lycée voisin. Pendant ce temps, Andrea est attaquée par un zombie. Elle est sauvée in extremis par Maggie, la fille de Hershel...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 2, "Le tout pour le tout", 3, "L'angoisse règne toujours à la ferme. Le petit Carl est entre la vie et la mort. Les familles Greene et Grimes attendent des nouvelles de Shane et Otis, partis chercher du matériel médical au lycée. Mais ce qu'ils ne savent pas, c'est que Shane et Otis sont désormais prisonniers du lycée, qui est peu à peu envahi par une horde de zombies. De leur côté, Daryl et Andrea continuent à rechercher Sophia.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 2, "Rose Cherokee", 4, "Tous les survivants se retrouvent à la ferme des Greene. Maggie et Glenn, profitant d'une escapade au bourg voisin, se laissent aller à leur attirance mutuelle. Shane, depuis la mort d'Otis, a du mal à dissimuler sa part sombre. Pendant ce temps, Daryl continue de chercher la jeune Sophia disparue...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 2, "Le Chupacabra", 5, "Dans les bois aux alentours de la ferme de la famille Greene, Daryl s'aventure à la recherche d'indices sur la disparition de Sophia. Malencontreusement, il se blesse assez gravement. Pour ne rien arranger, il doit faire face à des zombies et malgré ses talents de chasseur, sa situation devient critique. Pendant ce temps, Rick devine qu'il est en train de se passer quelque chose de grave. A la ferme d'Herschel Greene, les relations entre Glenn et Maggie deviennent plus évidentes. Glenn a une appréciation positive sur l'attitude de Maggie mais doute encore des sentiments naissants entre eux...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 2, "Secrets", 6, "Pour les survivants emmenés par Rick Grimes, les temps deviennent difficiles : alors que l'humanité des uns et des autres est mise à rude épreuve et que le danger est omniprésent à cause des zombies, les relations entre humains sont constamment sur la corde raide. Le jeune Glenn devient ainsi le dépositaire de deux lourds secrets. Va-t-il en supporter le poids ? De son côté, Rick doit révéler un élément de la vie d'une personne proche de lui. Qu'en sera-t-il des conséquences ? Andrea, quant à elle, développe de nouvelles aptitudes et doit s'en servir lors d'un affrontement sans merci...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 2, "Déjà plus ou moins mort", 7, "Entre les survivants, emmenés par Rick, et les habitants de la ferme Greene, les discussions sont vives sur l'attitude à adopter face au monde et ce qu'il est devenu. Hershel refuse de voir une certaine réalité. Andrea, de son côté, affirme sa personnalité et sort peu à peu de sa coquille. Entre les secrets des uns et des autres, l'ambiance devient pesante. Mais tous prennent de plus en plus conscience que dans ce monde devenu un enfer permanent, tout un chacun est considéré comme de la nourriture pour les autres...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 2, "Nebraska", 8, "Les morts vivants retenus dans la grange ont tous été tués. La tension monte d'un cran au sein du petit groupe de survivants. Hershel Greene veut que Rick et ses amis quittent immédiatement sa ferme. Shane s'en prend à Rick et l'accuse de ne pas être assez réaliste sur la situation, sachant que Sophia se trouvait dans la grange. Dale prévient Andrea et Lori de se méfier de Shane et de sa personnalité trouble, d'autant plus qu'il le soupçonne de ne pas avoir dit toute la vérité sur la mort d'Otis...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 2, "Le Doigt sur la détente", 9, "Pour les survivants, la situation ne s'améliore pas. Après les multiples dissensions qui ont fait exploser le groupe, où l'attitude de Shane a été un élément déterminant, chacun tente de suivre sa propre voie. Rick et Glenn ont suivi Hershel lorsqu'il est parti en ville alors qu'il s'était fait une règle de ne jamais quitter sa ferme. Malencontreusement, les trois hommes se retrouvent pris au piège et doivent se battre contre des morts-vivants. De son côté, Shane découvre que Lori est en danger...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 2, "A dix-huit miles, au moins", 10, "Rick, accompagné de Shane, emmène Randall au plus loin de la ferme des Greene pour le perdre afin qu'il n'en retrouve pas le chemin. Ils l'abandonnent dans une ancienne école et se disputent quant à son sort. Shane veut l'exécuter alors que Rick demande une nuit pour réfléchir à cette question. Mais les trois hommes sont attaqués par des rôdeurs. A la ferme, Beth, désespérée de vivre dans un monde aussi violent, veut mettre fin à ses jours. Lori et Andrea n'ont pas la même opinion sur l'attitude à adopter vis-à-vis d'elle. Quant à Maggie, elle cherche surtout à protéger sa soeur...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 2, "Juge, Juré et Bourreau", 11, "Alors que l'hiver approche et que les survivants tentent de s'organiser pour rester loin des ennuis et des morts-vivants qui rôdent aux alentours, l'ambiance dans le groupe est toujours aussi pesante. Rick et Shane ne s'entendent pas sur l'attitude à adopter vis-à-vis de Randall. A la ferme, Dale s'interroge sur la part d'humanité qui subsiste encore dans le groupe. Les actions du jeune Carl portent à conséquences. Quant à Beth, Andrea et Lori continuent de la surveiller après sa tentative de suicide...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 2, "Les Meilleurs Anges de notre nature", 12, "Dale a été attaqué par un rôdeur aux alentours de la ferme et il n'a pas survécu à ses blessures. Tout le monde dans le groupe est choqué par sa disparition, car il représentait une part d'humanité dans ce monde violent. Rick, Shane et les autres doivent maintenant redoubler d'attention car les rôdeurs peuvent frapper à n'importe quel moment. Leur priorité reste la sécurité du groupe. De plus, Randall pose problème. Rick voulait le tuer mais il n'a pas pu l'exécuter sous les yeux de son fils. Le jeune homme est-il fiable ?...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 2, "Près du feu mourant", 13, "De retour des bois qui entourent la ferme, Rick et son fils Carl découvrent que l'endroit où ils vivent depuis plusieurs semaines est devenu un véritable chaos. Le petit groupe de survivants est complètement séparé et les derniers semblants d'unité ont volé en éclats. La ferme des Greene n'est plus le havre de paix espéré par certains. De plus, le leadership de Rick sur le groupe est désormais remis en cause...");
+
+
+******************************************************************************************
+SAISON 3
+******************************************************************************************
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 3, "Graines", 1, "Après la nuit traumatisante au cours de laquelle ils ont dû abandonner la ferme de Hershel, Rick et les autres survivants cherchent un nouvel abri. Cela devient d'autant plus urgent qu'ils ont passé plusieurs mois dehors à la merci des rôdeurs, que tous sont épuisés et que l'accouchement de Lori est imminent. Après avoir fouillé toutes les maisons des alentours, ils arrivent à un endroit qu'ils n'avaient pas encore visité. Mais celui-ci est investi par les morts-vivants et risque d'être difficile à s'approprier. Rick, dont les décisions ne sont plus discutées, choisit cependant de saisir cette chance et entâme la sécurisation des lieux...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 3, "Malade", 2, "L'opération pour éliminer les rôdeurs de la prison et accéder au stock d'armes et de médicaments a pris une tournure dramatique pour Hershel qui s'est fait mordre par un mort-vivant. Il est entre la vie et la mort après que Rick l'ai amputé d'une jambe pour tenter de le sauver. D'autre part, les survivants réalisent qu'ils ne sont pas les seuls à occuper la prison. Ils doivent trouver un arrangement pour co-habiter avec les détenus qui y vivent. Mais peuvent-ils leur faire confiance ? Ces derniers, qui étaient restés reclus près du garde-manger, n'avaient pas mesuré l'ampleur de la situation a l'extérieur...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 3, "Marchez avec moi", 3, "Andrea et Michonne sont témoin d'un accident d'hélicoptère. Méfiantes, elles se cachent pour assister à la scène. Alors que les survivants sont pris en charge par des hommes armés, elles se font repérer et sont emmenées dans un endroit protégé des zombies appelé Woodbury. Dirigé par un homme énigmatique qui se fait appeler le gourverneur, elles y trouvent des soins médicaux, de quoi reprendre des forces et Andrea découvre que Merle Dixon, le frère de Daryl, est encore en vie. Mais si cette dernière semble apprécier le lieu, Michonne se méfie de ses apparences trop idylliques...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 3, "Un tueur à l'intérieur", 4, "A Woodburry, le gouverneur tente en vain d'obtenir la confiance de Michonne. Celle-ci est bien décidée à lever le camp dès que possible. Andrea, elle, n'est pas pressée de s'en aller et donne à Merle toutes les informations dont elle dispose sur son frère. Pendant ce temps, à la prison, les efforts du groupe pour rendre l'endroit vivable commencent à porter leurs fruits. Hershel, désormais rétabli, fait ses premiers pas aidé de béquilles et s'imagine vivre paisiblement dans cet endroit. Mais ce bonheur est de courte durée puisqu'une nouvelle fois, les rôdeurs mettent la vie des survivants en danger...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 3, "Dis-le", 5, "Rick est inconsolable après la décès de Lori et ce sont les autres survivants qui prennent en charge le nouveau-né. Tandis que Maggie et Daryl partent à la recherche de nourriture et de matériel de puériculture, Glenn lui, entreprend d'enterrer les corps. A Woodburry, Michonne, qui veut récupérer son arme, fouille dans les affaires du gouverneur et découvre certains de ses secrets. Cela renforce sa volonté de partir rapidement et engendre une nouvelle dispute avec Andrea qui, elle, sent de plus en plus à sa place dans cette communauté. Alors que la première part seule, la seconde assiste à un spectacle pour le moins particulier...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 3, "La traque", 6, "A nouveau en errance dans la forêt après avoir quitté Woodburry, Michonne n'est plus menacée uniquement par les morts-vivants, elle doit aussi se cacher des hommes de main du gouverneur qui sont à ses trousses. Andrea, au contraire, s'investit de plus en plus dans la vie du village et se rapproche du gouverneur. Dans le même temps, à la prison, Rick s'isole du groupe et ne parvient pas à se remettre de la mort de Lori. Phénomène étrange : il reçoit un coup de téléphone. Glenn et Maggie, sont, eux, partis chercher des vivres mais font une mauvaise rencontre...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 3, "Quand les morts approchent", 7, "Maggie et Glenn ont été capturés par le gouverneur qui tente de leur soutirer des informations sur leur lieu de vie. Michonne a, elle, trouvé la prison et fait la connaissance de Rick. Elle lui apprend l'existence de Woodburry et que ses amis y sont retenus. Avec l'aide de Daryl, Oscar et de cette nouvelle combattante, ils tentent de leur venir en aide...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 3, "Une vie de souffrance", 8, "Rick et les autres sont partis en mission pour tenter de libérer Maggie et Glenn. Malgré le peu de confiance qu'ils accordent à Michonne, ils parviennent à entrer dans la ville fortifiée. Tandis que Michonne découvre les sombres secrets du gouverneur, Andréa se bat sans le savoir contre ses anciens amis et Daryl apprend que son frère vit à Woodburry. Pendant ce temps, à la prison, Carl fait la connaissance de nouveaux survivants...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 3, "Le roi du suicide", 9, "Daryl et Merle, qui se sont retrouvés lors d'un duel à mort imposé par le gouverneur, parviennent à s'échapper tout deux vivants de Woodburry. Mais face à la personnalité de son frère et à la violence dont celui-ci a fait preuve envers Glenn et Maggie, Daryl préfère quitter le groupe et partir de son côté avec Merle. De retour à la prison, Rick, plus méfiant que jamais et toujours en proie à des visions, congédie Tyreese et les siens qui comptaient s'installer dans une partie du bâtiment. Dans le même temps, Andrea tente de contenir la panique qui s'empare des habitants de Woodburry...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 3, "Chez nous", 10, "Rick ne cesse d'aperçevoir Lori et le groupe s'inquiète de ses réactions parfois incontrôlées. Tous tentent de trouver une solution pour parer aux représailles du gouverneur. Alors que certains pensent survivre en fuyant la prison, d'autres ne peuvent se résoudre à quitter ces lieux qu'ils ont mis tant de temps et d'énergie à s'approprier. Mais le gouverneur dispose de bien plus d'armes et d'hommes qu'ils n'en auront jamais. Pendant ce temps, à Woodburry, ce dernier assure à Andrea ne pas vouloir se venger. Il lui confie son envie de céder son rôle de leader. Mais joue-t-il franc jeu ? A la prison, le groupe de Rick, va vite le savoir...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 3, "Entre deux feux", 11, "La guerre est officiellement déclarée depuis que le gouverneur a attaqué la prison à l'aide d'une fourgonnette remplie de rôdeurs. Le leader de Woodburry fait le bilan de ses ressources disponibles en hommes et en armes, sollicitant l'aide de tous les habitants afin de lever une armée. Andrea, qui veut à tout prix éviter un bain de sang, se rend à la prison pour discuter avec ses anciens amis. Là-bas, le retour de Daryl et de Merle suscite la crainte mais permet d'avoir des informations sur l'ennemi. Alors que deux solutions semblent s'offrir au groupe de Rick : fuir ou attaquer, Carol propose à Andrea un plan alternatif...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 3, "Retrouvailles", 12, "Le groupe décide finalement de rester à la prison et de se préparer à une nouvelle attaque du gouverneur. Rick, qui dispose des clés du local de son ancien commissariat de police, se propose de chercher des armes et des munitions. En compagnie de Michonne et de Carl, il se rend dans son ancienne ville, là où tout a commencé, et fait la rencontre d'une vieille connaissance. Carl, qui a bien grandit et porte désormais sa propre arme, décide de partir seul en mission. Mais l'aide de Michonne va finalement s'avérer utile et permet à cette dernière d'enfin gagner la confiance du jeune garçon...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 3, "Une flèche sur la porte", 13, "Les leaders de la prison et de Woodburry se rencontrent pour tenter de trouver un accord de paix. Chacun vient avec sa proposition mais celle de Rick, de partager le territoire en deux, de sorte à ne jamais se recroiser, ne satisfait pas le gouverneur. Celui-ci, toujours dans un esprit de vengeance, lui propose un tout autre marché et promet en échange d'épargner la prison et ses habitants. Là-bas, Maggie et Glenn peinent à calmer Merle qui s'est mis en tête d'écourter l'entrevue de Rick en abattant purement et simplement le gouverneur. Déterminé, il tente de rallier Michonne à sa cause...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 3, "La proie", 14, "Alors qu'à Woodburry, Andrea et Milton ouvrent les yeux sur la personnalité de leur leader, à la prison, Rick reconsidère l'offre de livrer Michonne au gouverneur...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 3, "Cette triste vie", 15, "Rick et son groupe doivent faire face à un problème a priori insoluble. Les circonstances exigent pourtant une décision rapide. En effet, la nécessité d'une trêve avec le gouverneur se faisant de plus en plus pressante, les survivants vont devoir se résoudre à des sacrifices exorbitants. Michonne, surtout, est en danger : Rick demande à Merle de kidnapper la jeune femme et de l'envoyer chez le gouverneur. Sur le chemin, tous deux tombent dans une embuscade...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 3, "Bienvenue dans le tombeau", 16, "Après avoir demandé qu'on lui livre Michonne comme condition à la paix entre les groupes, le gouverneur franchit une nouvelle étape. Mais la mort de Merle accroît la tension. Andrea est toujours retenue prisonnière à Woodburry. Elle ne peut empêcher le gouverneur de prendre la décision d'attaquer la prison. Rick et les siens vont devoir se battre face à des hommes lourdement armés et vont devoir improviser pour s'en sortir vivants...");
+
+
+
+pas dans la base !!!!!!!!!!!!
+
+
+
+******************************************************************************************
+SAISON 4
+******************************************************************************************
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 4, "30 jours sans accident", 1, "Plusieurs mois se sont écoulés pour les rescapés. Autour de Rick, ils continuent de lutter pour leur survie. Face à eux, les zombies se montrent plus féroces, plus nombreux et plus dangereux. Les hommes aussi sont une menace, en particulier le gouverneur, plein de rancune à l'égard de Rick.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 4, "Infectés", 2, "Patrick tombe malade et, faute de soins adaptés, meurt rapidement. Peu de temps après, il se met à attaquer les survivants dans la prison. D'autres rescapés, atteints de la grippe comme Patrick, décèdent et se tranforment en morts-vivants. Pour sauver la communauté, Rick décide de mettre les malades en quarantaine...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 4, "Isolement", 3, "L'épidémie de grippe n'est toujours pas maîtrisée. La plupart des survivants sont en quarantaine, y compris Sasha et Glenn. Face à l'urgence de la situation, Daryl décide de suivre les conseils de Hershel et d'aller récupérer des médicaments dans une ex-école vétérinaire, située à quelques kilomètres de la prison. Tyreese veut retrouver la personne qui a brûlé vif David et Karen...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 4, "Indifférence", 4, "Plusieurs mois se sont écoulés pour les rescapés. Autour de Rick, ils continuent de lutter pour leur survie. Face à eux, les zombies se montrent plus féroces, plus nombreux et plus dangereux. Les hommes aussi sont une menace, en particulier le gouverneur, plein de rancune à l'égard de Rick...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 4, "Internement", 5, "En attendant les médicaments, Hershel fait tout ce qu'il peut pour maîtriser l'épidémie, soignant les uns et achevant ceux qui se transforment en zombies. Rick rentre à la prison sans Carol, ce qui ne manque pas de susciter des interrogations parmi les survivants. Avec l'aide de Carl, il tente de repousser une horde de morts-vivants qui ont réussi à détruire le grillage...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 4, "Appât vivant", 6, "Réfugiés dans la prison, les survivants parviennent à établir une cohabitation harmonieuse. Ils ont le sentiment de mener enfin une vie presque idéale. Mais, à plus long terme, seront-ils capables de maintenir leur humanité et leur entente face aux menaces extérieures ?");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 4, "Poids mort", 7, "A l'extérieur de la prison, les événements se précipitent. Un fait survenu dans un camp proche du pénitencier a des conséquences aussi graves qu'inattendues. Dans la prison, qui est devenue le refuge le plus sûr des survivants, l'arrivée de nouveaux rescapés provoque des tensions. La paix fragile qui règne entre les hommes est menacée...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 4, "Désespéré", 8, "Dans la prison, les survivants sont soulagés : le calme est revenu. Chacun baisse la garde, prêt à s'installer dans une certaine forme de normalité. Seul Rick se montre préoccupé. Malheureusement, le danger n'est pas loin. Le Gouverneur est en train de recruter des hommes pour lancer un assaut massif contre la prison...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 4, "Après", 9, "Les survivants se sont séparés à la chute de la prison. Ceux qui sont demeurés dans le pénitencier mènent une vie presque parfaite. Mais d'autres sont en fuite dans les rues de Woodbury, en danger et vulnérables. Rick et Carl, eux, tombent par hasard sur une maison vide en pleine forêt, tandis que Daryl et Beth se rendent compte qu'ils sont observés par un mystérieux inconnu : une nouvelle menace pointe...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 4, "Détenus", 10, "Les groupes de survivants, qui s'étaient dispersés, se rassemblent à nouveau à Woodburry. Malheureusement, il apparaît vite que le mystérieux tueur rôde peut-être encore dans les parages...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 4, "Revendiqué", 11, "Dans la maison qui leur sert de refuge provisoire, Rick tente de retrouver des forces. Michonne et Carl en profitent pour aller chercher du ravitaillement. Rick s'assoupit, mais il est réveillé par des hommes en armes qui ont investi les lieux. Plus loin, Glenn et Tara sont en compagnie d'Abraham Ford, un ancien militaire, et de ses deux amis, Rosita et Eugene : selon Ford, Eugene doit rallier Washington à tout prix...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 4, "Parenthèse", 12, "Perdus dans les bois peuplés de zombies, Beth et Daryl tentent de survivre : ils doivent échapper aux rôdeurs et trouver de quoi manger. Soudain Beth a envie de prendre un verre mais devant l'attitude sceptique de Daryl, elle doit s'employer à le motiver et à ne pas plonger dans le pessimisme ambiant...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 4, "Seul", 13, "
+Après avoir découvert une maison, dont les placards sont pleins de nourriture, Daryl et Beth pensent avoir trouvé un refuge sûr. De leur côté, Sasha, Bob et Maggie sillonnent les routes, en quête d'un lieu tranquille et sécurisant...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 4, "Le verger", 14, "
+Tyreese, Carol, Lizzie et Mika découvrent une petite maison dans un endroit qui semble protégé du monde extérieur. Alors que le petit groupe décide de s'y arrêter pour reprendre des forces, Carol et Tyreese se rendent compte que Lizzie est particulièrement confuse dans son approche des morts-vivants. Elle continue de penser qu'ils sont inoffensifs et que l'on peut vivre avec...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 4, "Nous", 15, "
+Pendant que Daryl tente de s'adapter au groupe mené par Joe, Glenn et Tara décident d'emprunter un tunnel peuplé de zombies pour rejoindre plus rapidement le groupe de Maggie, après que Glenn a eu la confirmation que celle-ci est bel et bien vivante...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 4, "A", 16, "
+Protégée dans l'enceinte de la prison, la communauté des survivants s'est organisée au fil du temps. Au dehors, les zombies rôdent, mais ils ne sont pas la seule menace. Le Gouverneur, plein de rancune à l'égard de Rick, prépare sa vengeance.");
+
+******************************************************************************************
+SAISON 5
+******************************************************************************************
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "Pas de sanctuaire", 1, "Rick et une partie du groupe de survivants pensaient avoir trouvé un nouveau refuge, mais la communauté du Terminus semble cacher un terrifiant secret. Et ce qu’ils vont découvrir pourrait repousser toutes les limites de l’horreur… Quant au reste du groupe, Carol et Tyreese sont toujours en chemin, avec Judith, le bébé de Rick. Et Beth a été enlevée par un mystérieux groupe. Mais c’est sans compter sur l’opiniâtreté retrouvée de l’ex-shérif…");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "Étrangers", 2, "Les réserves s'affaiblissent et ne sachant pas s'il peut faire confiance aux personnes qui les entourent, Rick conduit une mission dont le résultat ne vaut pas forcément les risques encourus");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "Quatre murs et un toit", 3, "Bob, blessé à mort, n'en a plus pour très longtemps alors que l'infâme Gareth et sa bande reviennent vers l'église pour capturer Rick et ses compagnons.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "L'Hôpital", 4, "Beth se réveille dans un hôpital d'Atlanta : elle a été récupérée par un groupe de policiers qui ont transformé le bâtiment en forteresse coupée du monde.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "Développement personnel", 5, "Abraham, Eugene, Rosita, Tara, Glenn et Maggie sont en route vers Washington mais le chemin est parsemé d'embûches et les zombies rôdent partout.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "Anéanti", 6, "Dans la nuit, Carol et Daryl suivent la voiture marquée d'une croix blanche qui les mène dans la banlieue d'Atlanta : ils espèrent retrouver Beth.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "Croix", 7, "Daryl revient à l'église et informe Rick que Beth et Carol sont prisonnières à l'hôpital d'Atlanta : il est décidé d'organiser une opération de sauvetage.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "Coda", 8, "A Atlanta, Rick et son groupe veulent échanger leurs deux prisonniers contre Beth et Carol mais il va falloir négocier avec Dawn et son escouade de policiers.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "Ce qui s'est passé et le monde dans lequel on vit", 9, "Noah amène Rick, Tyreese, Michonne et Glenn dans un endroit censé être protégé du monde extérieur mais en arrivant, tout est désert et il n'y a plus de vie.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "Les Autres", 10, "Rick et les survivants errent sur les routes, épuisés, affamés, désespérés, à bout de force, et certains donnent des signes évidents de fragilité.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "La Distance", 11, "Le mystérieux Aaron propose à Rick et son groupe d'intégrer la communauté d'Alexandria, un endroit censé être protégé du monde extérieur, mais Rick est méfiant.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "Souvenez-vous", 12, "Rick et ses compagnons découvent la communauté d'Alexandria et sa dirigeante Deanna Monroe : les survivants vont devoir s'adapter à ce nouvel univers.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "Oublier", 13, "A Alexandria, Rick, Daryl et Carol restent sur leurs gardes alors que Sasha se demande si la véritable existence est à l'intérieur ou à l'extérieur de ces murs.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "Perte", 14, "Alors que certains secrets d'Alexandria commencent à émerger, Glenn et une petite équipe entreprennent une expédition qui s'avère assez dangereuse.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "Essayer", 15, "Alors que Daryl et Aaron sont en reconnaissance dans les bois, à Alexandria, les rapports se tendent entre Rick et Deanna, à propos de Jessie.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 5, "Conquérir", 16, "Alors que Daryl et Aaron se retrouvent pris au piège dans un entrepôt, à Alexandria, le sort de Rick va se jouer lors d'une sorte de conseil communautaire.");
+
+
+******************************************************************************************
+SAISON 6
+******************************************************************************************
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "Comme si c'était la première fois", 1, "Le groupe de Rick a toujours des difficultés à s’intégrer à Alexandria. Alors que de multiples menaces forcent la communauté à durcir leur attitude, Rick et les autres doivent faire marche arrière concernant le comportement violent qu’ils ont adopté. ");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "JSS", 2, "La communauté d'Alexandria est attaquée par la bande des Wolves, des hommes violents qui sont devenus cannibales : Carol et Morgan mènent la riposte.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "Merci", 3, "Rick, Michonne, Glenn et quelques autres tentent de rallier Alexandria au plus vite avant que des centaines de zombies ne s'y rendent, attirés par le bruit.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "Ici n'est pas ici", 4, "Le passé de Morgan se dévoile, sa survie dans les bois et sa rencontre essentielle avec un homme nommé Eastman, qui lui enseigne des valeurs primordiales.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "Maintenant", 5, "De retour à Alexandria, Rick tente de motiver les habitants de la communauté à rester en alerte alors que Maggie veut partir à la recherche de Glenn.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "Toujours responsable", 6, "Daryl, Abraham et Sasha sont attaqués par une bande de mercenaires et sont séparés dans la bataille : Daryl rencontre un groupe de trois personnes.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "Attention", 7, "Glenn a survécu miraculeusement et tente de rallier la communauté alors qu'à Alexandria, Rick s'interroge sur l'attitude trop pacifiste de Morgan.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "D'un bout à l'autre", 8, "Après l'incident de la tour, la situation devient critique à Alexandria : les nombreux zombies entrent dans le périmètre de la communauté.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "Sans Issue", 9, "Pete mort, Rick, leader fragile, prend le contrôle d'Alexandria. Les zombies s'accumulent aux portes de la cité, également menacée par les Wolfes.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "L'autre monde", 10, "Rick et Daryl croisent Jésus, un homme mystérieux avec de nombreux secrets. Pendant ce temps, Michonne aide Spencer, alors que Carl récupère de sa blessure.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "Les noeuds se défont", 11, "Jésus amène Rick et le groupe à la colonie Hilltop, une communauté paisible éclipsée par la puissance de Negan et Les Sauveurs.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "Pas encore demain", 12, "De retour de Hilltop, Rick rallie Alexandrie à une attaque surprise sur Les Sauveurs. Deux membres du groupe sont capturés.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "Le même bateau", 13, "Carol et Maggie vont devoir se battre après avoir été capturées par un groupe des Sauveurs...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "Deux fois plus long", 14, "
+Après une petite victoire contre Les Sauveurs, une course d'alimentation dirigée par Daryl tourne mal quand lui et son groupe croisent Dwight.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "Est", 15, "Daryl et Rosita traquent Dwight, alors que Glenn et Michonne tombent dans un piège.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 6, "Dernier jour sur Terre", 16, "Morgan fait un sacrifice dans le but de sauver Carol. Pendant ce temps, Rick et le groupe voyage à Hilltop avec une Maggie en difficultés.");
+
+
+******************************************************************************************
+SAISON 7
+******************************************************************************************
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "Le jour viendra où tu ne le seras plus", 1, "La situation est toujours compliquée à Alexandria : le ravitaillement fait défaut et Tara doit partir chercher de quoi nourrir les survivants. Un groupe découvre une nouvelle communauté gérée par un certain Ezekiel, très épris du pouvoir qu'il exerce. Negan, lui aussi, entend se faire respecter. La violence est son moyen de pression favori.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "Le Puits", 2, "Pour un certain nombre de rescapés, la nouvelle communauté tout juste découverte semble apporter abri et réconfort. Mais tout est-il aussi parfait qu'il y paraît ? Rien n'est moins sûr. Certains événements troublants commencent à semer le doute dans l'esprit des fugitifs. Leurs sauveurs ne sont peut-être pas aussi bienveillants qu'ils veulent bien le dire...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "La Cellule", 3, "Rick Grimes et ses fidèles compagnons d'infortune découvrent une nouvelle communauté de survivants. Dans cet endroit, les ressources sont en abondance. Mais passé les premières impressions, Rick et les siens comprennent que profiter de cette manne aura un prix. Sont-ils prêts à faire de nouveaux sacrifices ?");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "Service", 4, "Rick et ses compagnons tentent de se remettre de leur rencontre violente avec Negan, le chef des Sauveurs. De nouveau dans les murs d'Alexandria, ils doivent pourtant s'attendre à la visite du terrible propriétaire de Lucille, car la communauté est désormais sous son joug.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "Des mecs qui ont la gnaque", 5, "Dans la communauté de la Colline, l'ambiance n'est pas joyeuse. Carl et Enid espèrent toutefois que l'endroit pourra les protéger. Mais les ennemis rôdent et Jesus doit faire face à une attaque des Sauveurs, emmené par un certain Simon.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "Donne-moi ta parole", 6, "Presque par hasard, les survivants découvrent encore une nouvelle communauté, quelque chose de très différent de ce dont ils avaient l'habitude. Comment Rick et les siens vont réagir alors que la menace de Negan et de ses Sauveurs est toujours présente ?");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "Chante-moi une chanson", 7, "Daryl a été fait prisonnier du groupe des Sauveurs. L'ex-motard découvre le Sanctuaire, le repère des Sauveurs, et les "codes" de vie des troupes de Negan. De leur côté, les survivants d'Alexandria, qui sont rackettés par les Sauveurs, doivent rapidement trouver plus de ressources pour subsister.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "Les cœurs battent toujours", 8, "Negan fait une visite inattendue à Alexandria pendant que Rick et son groupe continuent les recherches de fournitures. Mais les choses dérapent très vite.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "Une pierre sur la route", 9, "Rick et ses amis décident de rassembler plusieurs groupes afin de lutter contre Negan. Jesus apprend à Rick l'existence du Royaume et de son Roi Ezekiel.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "De nouveaux meilleurs amis", 10, "Au Royaume, Daryl apprend qu'Ezekiel fournit les Sauveurs en provisions et que Carol pourrait potentiellement devenir une cible des Sauveurs en chassant seule dans la foret. De son côté, le groupe de Rick rencontre une nouvelle communauté qui vit au milieu d'une immense décharge et qui a capturé le père Gabriel.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "Divers ennemis et autres menaces", 11, "Un des membres d'Alexandria découvre qu'ils doivent traverser le monde mystérieux, confus et terrifiant du camp des Sauveurs.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "Dis okay", 12, "Rick et Michonne partent à la recherche d'armes, afin de conclure le marché qu'ils ont passé avec la communauté de la décharge. Ils finissent par en trouver dans une ancienne fête foraine infestée de zombies. De son côté, Rosita n'est pas satisfaite de la situation : elle ne pense qu'à sa vengeance contre les Sauveurs...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "Enterrez-moi ici", 13, "Chaque semaine, les gens du Royaume délivrent de la nourriture pour le compte des Sauveurs. Lors d'un rendez-vous hebdomadaire, la rencontre entre les deux groupes se passe mal. Gavin, l'un des Sauveurs, constate qu'il manque un melon dans la livraison. La tension monte rapidement même si Morgan tente de calmer les esprits, et d'autant que Jared, un autre Sauveur, a la gachette facile. Pour punir les hommes d'Ezekiel, Jared tire sur Benjamin...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "L'autre côté", 14, "A la Colline, Maggie retrouve des forces et son aura grandit dans la communauté. Daryl, lui, reste mutique. Rosita et Sasha sont bien décidées à aller dans le repaire des Sauveurs pour tuer Negan. Soudain, une bande de Sauveurs menés par Simon débarque dans les lieux : ils recherchent quelqu'un en particulier...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "Ce qu'il leur manque", 15, "Sasha est détenue prisonnière chez les Sauveurs et le redoutable Negan lui propose d'intégrer leur groupe. De son côté, Tara emmène Rick et les siens dans la communauté qui vit près de l'océan afin de récupérer des armes. Mais sur place, la leader Natania refuse catégoriquement toute aide au groupe de Rick...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 7, "Le premier jour du reste de ta vie", 16, "Rick apprend par Dwight que Negan doit bientôt arriver à Alexandria. La riposte s'organise, Rick ayant l'intention d'en finir avec les Sauveurs. La communauté d'Alexandria est rassurée quand celle de la décharge se joint à eux. Derrière les murs, tout le monde se prépare à un affrontement avec les Sauveurs...");
+
+
+******************************************************************************************
+SAISON 8
+******************************************************************************************
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Miséricorde", 1, "Rick et son groupe, avec Kingdom et Hilltop, se sont regroupés pour amener le combat à Negan et aux Sauveurs.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Les Damnés", 2, "
+Le plan impliquant Alexandrians, Kingdommers et Hilltoppers se déroule; Alors que Rick continue à se battre, il rencontre un visage familier.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Monstres", 3, "Le conflit avec les Sauveurs conduit à des conséquences inattendues pour Hilltop, le Royaume et Alexandrie.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Un type ordinaire", 4, "Une nouvelle arme dans l'arsenal du Sauveur s'avère être un obstacle géant alors que les combats continuent entre les forces de Rick et celles des Sauveurs.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Une terreur comme vous", 5, "Un regard attentif sur Negan et la vie des Sauveurs pendant le conflit à travers un regard familier.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Le roi, la veuve et Rick", 6, "Avec des choses qui cherchent Rick et le groupe, une dispute éclate au Hilltop, où les conséquences de la décision sont la vie contre la mort.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Après, c'est maintenant", 7, "Negan doit obtenir l'aide de ses lieutenants pour résoudre un énorme problème face au Sanctuaire. Rick et le groupe continuent d'adopter le plan.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Y'a que comme ça que ça peut marcher", 8, "Chaque histoire et bataille se brisent ensemble alors que tout ce que Rick et son groupe ont fait seront mis à l'épreuve.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Honneur", 9, "Rick fait face à de nouvelles difficultés après une bataille. Pendant ce temps, la lutte se poursuit dans d'autres communautés alors que les principaux membres sont confrontés à des décisions difficiles.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Les égarés et les pillards", 10, "Les groupes unissent leurs forces et convergent sur le sommet de la colline. Aaron et Enid recherchent des alliés. Simon prend les choses en main.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Vivant ou mort ou", 11, "Daryl se retrouve en mauvaise compagnie alors que son groupe se dirige vers l'Hilltop; La foi de Gabriel est testée.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "La clé", 12, "Le leadership de Hilltop fait face à un dilemme difficile après l'arrivée de visiteurs inattendus; Rick se retrouve face à face avec un adversaire.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Ne nous égare pas", 13, "Des problèmes surviennent lorsque des visiteurs inattendus arrivent au sommet de la colline et que la communauté est mise en action; découvertes déchirantes sont faites.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Ca compte encore", 14, "Un prisonnier de Heaps fait une découverte, Carol cherche quelqu'un dans la forêt voisine. Rick et Morgan se retrouvent en compagnie d'étrangers.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Valeur", 15, "Avec la menace des Sauveurs qui se profile encore, Aaron continue de chercher des alliés. Daryl et Rosita agissent et affrontent un vieil ami.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 8, "Colère", 16, "Les communautés unissent leurs forces dans la dernière position contre les Sauveurs alors que la guerre totale se déroule.");
+
+
+******************************************************************************************
+SAISON 9
+******************************************************************************************
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 9, "Un nouveau départ", 1, "Dix-huit mois après la fin de la guerre contre les Sauveurs, une paix fragile règne sur les différentes communautés de survivants. Afin de reconstruire une civilisation telle qu’imaginée par son fils Carl, Rick et son groupe entament une expédition risquée jusqu’à Washington pour récupérer du matériel agricole.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 9, "Le pont", 2, "Les communautés unissent leurs forces pour restaurer un pont qui facilitera le commerce et la communication entre elles. Alors que de nombreuses tensions éclatent sur le chantier, l’erreur d’un Sauveur met la vie de quelqu’un en danger.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 9, "Panneaux de signalisation", 3, "La vision de Rick pour un avenir meilleur se retrouve menacée lorsqu’une mystérieuse disparition divise le camp de travail dans lequel les différentes communautés réparent un pont.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 9, "L'obligé", 4, "Des erreurs du passé mettent en péril le projet de Rick pour un futur civilisé.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 9, "Ce qui vient après", 5, "Alors qu'il s’évertue à préserver la sécurité des communautés, ainsi que l’idéal dont rêvait son fils Carl, Rick doit faire face à son passé.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 9, "Qui es-tu maintenant", 6, "A l’extérieur des murs qui assurent la sécurité de la communauté, les survivants rencontrent des inconnus et doivent décider si ils peuvent ou non leur faire confiance.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 9, "Stradivarius", 7, "A la recherche d’un vieil ami vivant seul dans une région sauvage regorgeant de zombies, Carol et les survivants s’engagent sur une route périlleuse pour trouver un nouvel abri.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 9, "Evolution", 8, "Alors qu’ils recherchent l’un de leur camarade égaré, un groupe de survivants découvre une menace surprenante qui pourrait tous les condamner...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 9, "Adaptation", 9, "Le groupe des survivants doit une fois de plus trouver les ressources nécessaires pour se relever après bien des épreuves, d'autant qu'un nouveau danger menace. Les mystérieux Chuchoteurs entrent en scène et leurs intentions ne paraissent pas pacifiques. De son côté, Negan se remet en question et revisite son passé...");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 9, "Omega", 10, "Les résidents de Hilltop se demandent si le dernier arrivé est un prisonnier ou un réfugié. Alors qu'ils apprennent l'existence d'un groupe de sauvages portant des masques, Daryl, Michonne et leurs compagnons se lancent dans une mission de sauvetage afin de retrouver les disparus.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 9, "Bounty", 11, "Le groupe sauvage, dirigé par Alpha, affronte les Hilltop afin de retrouver la fille de ce dernier. Un ravitaillement pour le Royaume se transforme en une quête dangereuse.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 9, "Les gardiens", 12, "Tandis qu'une communauté tente d'apaiser les tensions qui menacent de diviser le groupe, la véritable nature d'une bande se précise. Au même moment, un sauvetage a des conséquences mortelles.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 9, "Goulot d'étouffement", 13, "La mission de sauvetage de Daryl oblige Alpha à libérer un groupe. Elle souhaite récupérer ce qui lui appartient même si elle doit payer le prix fort. Les projets du Royaume visant à réunir les communautés sont mis en péril.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 9, "Cicatrices", 14, "L'arrivée d'un étranger contraint Alexandria à panser enfin de vieilles blessures. A cette occasion, des secrets du passé se révèlent.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 9, "Le calme avant", 15, "La foire du Royaume a lieu. Les quatre communautés se rassemblent pour la première fois depuis des années. Alors que certains pactes sont renouvelés, d'autres accords sont envisagés à un prix beaucoup plus élevé.");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 9, "La tempête", 16, "Après une perte accablante, les communautés doivent affronter une terrible tempête de neige. Tandis qu'un groupe décèle un ennemi venant de l'intérieur de leur bande, un autre doit prendre une décision de vie ou de mort.");
+
+
+******************************************************************************************
+SAISON 10
+******************************************************************************************
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 10, "", 1, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 10, "", 2, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 10, "", 3, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 10, "", 4, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 10, "", 5, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 10, "", 6, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 10, "", 7, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 10, "", 8, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 10, "", 9, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 10, "", 10, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 10, "", 11, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 10, "", 12, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 10, "", 13, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 10, "", 14, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 10, "", 15, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, 10, "", 16, "");
+
+
+******************************************************************************************
+SAISON #
+******************************************************************************************
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 1, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 2, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 3, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 4, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 5, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 6, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 7, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 8, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 9, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 10, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 11, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 12, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 13, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 14, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 15, "");
+
+INSERT INTO episode (id, season_id, title, number, synopsis) VALUES 
+(NULL, , "", 16, "");
+
+
+
+
+
+
+
+
+
+
+

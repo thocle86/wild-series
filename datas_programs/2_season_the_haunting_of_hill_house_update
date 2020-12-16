@@ -1,0 +1,4 @@
+UPDATE season SET description = 
+"Durant l’été 1992, Hugh et Olivia Crain s’installent avec leurs cinq enfants dans le manoir de Hill House. Mais des événements paranormaux et des pertes tragiques vont les obliger à quitter la demeure. Vingt-six ans plus tard, alors qu’une tragédie survient, les membres de cette famille éclatée sont à nouveau réunis dans cette maison, et sont contraints de faire face aux souvenirs d’événements terrifiants survenus autrefois."
+WHERE id = 11;
+

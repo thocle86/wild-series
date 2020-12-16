@@ -1,0 +1,19 @@
+UPDATE season SET description = 
+"A Los Angeles, Nick Clark, un jeune toxicomane qui accumule les problèmes, se réveille dans une église abandonnée et découvre son amie en train de dévorer la mâchoire d’un cadavre. Révélant ce qu’il a vu, sa famille pense qu’il s’agit d’hallucinations liées à sa consommation de drogue, même si de nombreux phénomènes étranges se produisent en ville. Mais Madison, sa mère, qui ne croit pas les histoires de son fils et encore moins les rumeurs d’épidémie mortelle qui courent dans le lycée où elle travaille, se rend vite compte que l’apocalypse vient de débuter."
+WHERE id = 19;
+
+UPDATE season SET description = 
+"Après avoir assisté à la destruction de la ville de Los Angeles, Travis, Madison et leur famille sont montés à bord du yacht Abigail. Inconscients de l’ampleur de l’apocalypse qui a touché le pays, ils espèrent regagner la terre ferme et trouver refuge dans un endroit épargné par l’infection. Dans le même temps, l’opération Cobalt, menée par les militaires pour enrayer la propagation de l’épidémie, déclenche une migration massive des zombies vers les côtes."
+WHERE id = 20;
+
+UPDATE season SET description = 
+"Alors que Madison et les siens tentent de rétablir un semblant de civilisation à la frontière mexicaine, Alicia a bien du mal à dépasser le meurtre d'Andres. Pour survivre aux menaces, la petite bande forme de nouvelles alliances et va devoir faire face à de lourdes pertes. De son côté, Nick est plus vulnérable que jamais après l’enlèvement de Luciana par un groupe armé américain."
+WHERE id = 21;
+
+UPDATE season SET description = 
+"Morgan Jones, qui a quitté la Georgie, se dirige vers le Texas et croise la route de Madison et de sa famille. Ensemble, ils trouvent refuge dans un stade de baseball dans lequel ils fondent une nouvelle communauté. Mais le groupe doit faire face aux Vautours, des survivants qui attendent la mort d’autres camps pour se procurer toutes les ressources nécessaires. Pour assurer leur futur dans ce monde apocalyptique, tous devront une fois encore se montrer soudés afin de se défaire des morts et des vivants qui les mettent en péril."
+WHERE id = 22;
+
+UPDATE season SET description = 
+"Morgan Jones dirige le groupe avec une philosophie empreinte de bienveillance, de détermination et d'espoir. Leur mission est claire : ils doivent localiser les survivants et aider à améliorer ce qui reste du monde. Chacun pense qu'en aidant les autres cela leur permettra de réparer les torts de leur passé. Mais la confiance n'est pas un sentiment facile à gagner. Leur volonté d'altruisme est mise à rude épreuve lorsque le groupe se retrouve au milieu d'un territoire inconnu. Ils vont devoir affronter leur passé mais aussi leurs peurs..."
+WHERE id = 23;
