@@ -9,7 +9,7 @@
             <p class="program_text">{{ program.id }} : {{ program.title }}</p>
             <p class="program_text">{{ program.summary }}</p>
             {# Lien vers la fiche de la série : #}
-            <a href="{{ path('program_show', { id: program.id }) }}" class="program_lien">Voir la fiche</a>
+            <a href="{{ path('program_show', { idProgram: program.id }) }}" class="program_lien">Voir la fiche</a>
         </div>
     {% else %}
         Aucune série trouvée.

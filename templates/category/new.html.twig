@@ -1,0 +1,12 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+    <a href="{{ path('category_index') }}" class="navigation">Retour à la liste des catégories</a>
+    <section class="form form-new">
+        <h1>Ajouter une catégorie</h1>
+        {{ form_start(form) }}
+        {{ form_widget(form) }}
+        <input type='submit' value='Ajouter la catégorie' class="submit">
+        {{ form_end(form) }}
+    </section>
+{% endblock %}

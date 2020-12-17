@@ -1,29 +1,17 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="{{ path('index') }}">
         <img src="{{ asset('build/logo-tv.png') }}" width="60" max-height="100%" alt="">
         <h1 class="logo_title">Wild Series</h1>
     </a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto navbar-acces-pages">
             <!--CATEGORIES-->
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Catégories</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="{{ path('program_index') }}">Horreur</a>
-                </div>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ path('category_index') }}">Catégories</a>
             </li>
             <!--ACTEURS-->
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Acteurs</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Par ordre alphabétique</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Par catégorie</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Par nationnalité</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Par tranche d'age</a>
-                </div>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ path('program_index') }}">Séries</a>
             </li>
             <!--MES FAVORIS-->
             <li class="nav-item">
