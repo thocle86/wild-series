@@ -5,7 +5,7 @@
 {% block body %}
     <h1 class="program_title">Toutes les catégories</h1>
     <a href="{{ path('index') }}" class="navigation">Retour à l'accueil</a>
-    <a href="{{ path('category_new') }}" class="navigation">Ajouter une catégorie</a>
+    
     {% for category in categories %}
         <div class="program_container">
             <p class="program_text">{{ loop.index }} / {{ category.name }}</p>

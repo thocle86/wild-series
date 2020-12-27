@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Liste des saisons{% endblock %}
+
+{% block body %}
+    <h1>Liste des saisons</h1>
+    <a href="{{ path('season_new') }}" class="navigation">Créer une nouvelle saison</a>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Série</th>
+                <th>Saison</th>
+                <th>Année</th>
+                <th>Synopsis</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for season in seasons %}
+            <tr>
+                <td>{{ season.program.title }}</td>
+                <td>{{ season.number }}</td>
+                <td>{{ season.year }}</td>
+                <td>{{ season.description }}</td>
+                <td>
+                    <a href="{{ path('season_show', {'idSeason': season.id}) }}">show</a>
+                    <a href="{{ path('season_edit', {'idSeason': season.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="5">Aucunes données trouvées</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock %}

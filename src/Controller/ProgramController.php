@@ -3,10 +3,10 @@
 namespace App\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\ParamConverter;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\ParamConverter;
 use App\Repository\ProgramRepository;
 use App\Entity\Program;
 use App\Entity\Season;
@@ -26,10 +26,6 @@ class ProgramController extends AbstractController
     {
         $programs = $programRepository->findAll();
 
-        if (!$programs) {
-            throw $this->createNotFoundException('The program does not exist');
-        }
-
         return $this->render(
             "program/index.html.twig",
             ["programs" => $programs]
@@ -46,10 +42,12 @@ class ProgramController extends AbstractController
         $program = new Program();
         $form = $this->createForm(ProgramType::class, $program);
         $form->handleRequest($request);
+
         if ($form->isSubmitted() && $form->isValid()) {
             $entityManager = $this->getDoctrine()->getManager();
             $entityManager->persist($program);
             $entityManager->flush();
+
             return $this->redirectToRoute('program_index');
         }
         return $this->render(
@@ -74,7 +72,7 @@ class ProgramController extends AbstractController
     /**
      * @Route("/{idProgram}/season/{idSeason}", methods={"GET"}, name="season_show")
      * @ParamConverter("program", class="App\Entity\Program", options={"mapping": {"idProgram": "id"}})
-     * @ParamConverter("season", class="App\Entity\Season", options={"mapping": {"idSeason": "number"}})
+     * @ParamConverter("season", class="App\Entity\Season", options={"mapping": {"idSeason": "id"}})
      * @return Response
      */
     public function showSeason(Program $program, Season $season): Response
@@ -89,8 +87,8 @@ class ProgramController extends AbstractController
     /**
      * @Route("/{idProgram}/season/{idSeason}/episode/{idEpisode}", methods={"GET"}, name="episode_show")
      * @ParamConverter("program", class="App\Entity\Program", options={"mapping": {"idProgram": "id"}})
-     * @ParamConverter("season", class="App\Entity\Season", options={"mapping": {"idSeason": "number"}})
-     * @ParamConverter("episode", class="App\Entity\Episode", options={"mapping": {"idEpisode": "number"}})
+     * @ParamConverter("season", class="App\Entity\Season", options={"mapping": {"idSeason": "id"}})
+     * @ParamConverter("episode", class="App\Entity\Episode", options={"mapping": {"idEpisode": "id"}})
      * @return Response
      */
     public function showEpisode(Program $program, Season $season, Episode $episode): Response

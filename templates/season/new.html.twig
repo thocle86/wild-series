@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Ajouter une saison{% endblock %}
+
+{% block body %}
+    <section class="form form-new">
+        <h1>Ajouter une saison</h1>
+        {{ include('season/_form.html.twig') }}
+    </section>
+
+    <a href="{{ path('season_index') }}" class="navigation">Retour à la liste des saisons</a>
+{% endblock %}

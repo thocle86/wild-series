@@ -1,12 +1,16 @@
 # wild-series
 
+## Quest solution symfony 12
+
+https://www.loom.com/share/a477220ab8b64b15b31a9be00f0b9ac1?sharedAppSource=personal_library
+
 ## Quest solution symfony 11
 
-https://www.loom.com/share/5a8d095122b347a88535c98488f1b88b?sharedAppSource=personal_library
+https://www.loom.com/share/59cf1cf207d84e9aba461e7d354ec0d6?sharedAppSource=personal_library
 
 ## Quest solution symfony 10
 
-https://www.loom.com/share/7868988d40b04fdd9443b022fd7080b0?sharedAppSource=personal_library
+https://www.loom.com/share/68e145863b4244a8b0ae851a068862e9?sharedAppSource=personal_library
 
 ## Quest solution symfony 9
 
