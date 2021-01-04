@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ actor.lastname }} {{ actor.lastname }}{% endblock %}
+
+{% block body %}
+    <a href="{{ path('actor_index') }}" class="navigation">Retour à la liste des acteurs</a>
+    <div class="media">
+        <div class="media-body">
+            <h1 class="mt-0">{{ actor.firstname }} {{ actor.lastname }}</h1>
+            {% for program in actor.programs %}
+                <div class="program_container">
+                    <a href="{{ path('program_show', { 'idProgram': program.id }) }}" class="program_text">{{ program.title }}</a>
+                </div>
+            {% else %}
+                Aucune saison trouvée.
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

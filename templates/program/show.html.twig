@@ -21,4 +21,12 @@
             {% endfor %}
         </div>
     </div>
+    <h1 class="mt-0">Acteurs :</h1>
+    {% for actor in program.actors %}
+    <div class="program_container">
+        <a href="{{ path('actor_show', { 'idActor': actor.id }) }}" class="program_text">{{ actor.firstname }} {{ actor.lastname }}</a>
+    </div>
+    {% else %}
+        Aucun acteur pour cette série.
+    {% endfor %}
 {% endblock %}

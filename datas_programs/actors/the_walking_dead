@@ -1,0 +1,11 @@
+INSERT INTO actor (id, firstname, lastname, birth_date) VALUES 
+(NULL, "Andrew", "Lincoln", "1973-09-14");
+
+INSERT INTO actor (id, firstname, lastname, birth_date) VALUES 
+(NULL, "Norman", "Reedus", "1969-01-06");
+
+INSERT INTO actor (id, firstname, lastname, birth_date) VALUES 
+(NULL, "Melissa", "McBride", "1965-05-23");
+
+INSERT INTO actor (id, firstname, lastname, birth_date) VALUES 
+(NULL, "Danai", "Gurira", "1978-02-14");
