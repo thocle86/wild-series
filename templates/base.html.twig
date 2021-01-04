@@ -14,9 +14,10 @@
         </header>
         <h1>Editer</h1>
         <a href="{{ path('category_new') }}" class="navigation">Catégorie</a>
-        <a href="{{ path('program_new') }}" class="navigation">Série</a>
+        <a href="{{ path('program_list') }}" class="navigation">Série</a>
         <a href="{{ path('season_index') }}" class="navigation">Saison</a>
         <a href="{{ path('episode_index') }}" class="navigation">Episode</a>
+        <a href="{{ path('actor_index') }}" class="navigation">Acteurs</a>
         {% block body %}{% endblock %}
         {% block javascripts %}
             {{ encore_entry_script_tags('app') }}

@@ -1,19 +1,32 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}{{ actor.lastname }} {{ actor.lastname }}{% endblock %}
+{% block title %}Détails acteur{% endblock %}
 
 {% block body %}
+    <h1>Détails acteur</h1>
     <a href="{{ path('actor_index') }}" class="navigation">Retour à la liste des acteurs</a>
-    <div class="media">
-        <div class="media-body">
-            <h1 class="mt-0">{{ actor.firstname }} {{ actor.lastname }}</h1>
-            {% for program in actor.programs %}
-                <div class="program_container">
-                    <a href="{{ path('program_show', { 'idProgram': program.id }) }}" class="program_text">{{ program.title }}</a>
-                </div>
-            {% else %}
-                Aucune saison trouvée.
-            {% endfor %}
-        </div>
-    </div>
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ actor.id }}</td>
+            </tr>
+            <tr>
+                <th>Firstname</th>
+                <td>{{ actor.firstname }}</td>
+            </tr>
+            <tr>
+                <th>Lastname</th>
+                <td>{{ actor.lastname }}</td>
+            </tr>
+            <tr>
+                <th>Birth_date</th>
+                <td>{{ actor.birthDate ? actor.birthDate|date('Y-m-d') : '' }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('actor_edit', {'id': actor.id}) }}" class="navigation">Modifier l'acteur</a>
+
+    {{ include('actor/_delete_form.html.twig') }}
 {% endblock %}

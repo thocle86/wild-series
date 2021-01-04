@@ -1,16 +1,37 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Acteurs{% endblock %}
+{% block title %}Liste des acteurs{% endblock %}
 
 {% block body %}
-    <h1 class="program_title">Tous les acteurs</h1>
-    <a href="{{ path('index') }}" class="navigation">Retour à l'accueil</a>
-    {% for actor in actors %}
-        <div class="program_container">
-            <p class="program_text">{{ loop.index }} / {{ actor.firstname }} {{ actor.lastname }}</p>
-            <a href="{{ path('actor_show', { 'idActor': actor.id }) }}" class="program_lien">Plus de détails</a>
-        </div>
-    {% else %}
-        Aucune série trouvée.
-    {% endfor %}
+    <h1>Liste des acteurs</h1>
+    <a href="{{ path('actor_new') }}" class="navigation">Créer un nouvel acteur</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Birth_date</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for actor in actors %}
+            <tr>
+                <td>{{ actor.id }}</td>
+                <td>{{ actor.firstname }}</td>
+                <td>{{ actor.lastname }}</td>
+                <td>{{ actor.birthDate ? actor.birthDate|date('Y-m-d') : '' }}</td>
+                <td>
+                    <a href="{{ path('actor_show', {'id': actor.id}) }}">show</a>
+                    <a href="{{ path('actor_edit', {'id': actor.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="5">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
 {% endblock %}

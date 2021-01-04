@@ -33,6 +33,20 @@ class ProgramController extends AbstractController
     }
 
     /**
+     * @Route("/list", name="list")
+     * @return Response
+     */
+    public function list(ProgramRepository $programRepository): Response
+    {
+        $programs = $programRepository->findAll();
+
+        return $this->render(
+            "program/list.html.twig",
+            ["programs" => $programs]
+        );
+    }
+
+    /**
      * The controller for the program add form
      *
      * @Route("/new", name="new")
@@ -64,7 +78,7 @@ class ProgramController extends AbstractController
     public function show(Program $program): Response
     {
         return $this->render(
-            "program/show.html.twig",
+            "program/showProgram.html.twig",
             ["program" => $program]
         );
     }
@@ -78,7 +92,7 @@ class ProgramController extends AbstractController
     public function showSeason(Program $program, Season $season): Response
     {
         return $this->render(
-            "program/seasonShow.html.twig",
+            "program/showSeason.html.twig",
             ["program" => $program,
             "season" => $season]
         );
@@ -94,10 +108,46 @@ class ProgramController extends AbstractController
     public function showEpisode(Program $program, Season $season, Episode $episode): Response
     {
         return $this->render(
-            "program/episodeShow.html.twig",
+            "program/showEpisode.html.twig",
             ["program" => $program,
             "season" => $season,
             "episode" => $episode]
         );
+    }
+
+    /**
+     * @Route("/{idProgram}/edit", name="edit", methods={"GET","POST"})
+     * @ParamConverter("program", class="App\Entity\Program", options={"mapping": {"idProgram": "id"}})
+     */
+    public function edit(Request $request, Program $program): Response
+    {
+        $form = $this->createForm(ProgramType::class, $program);
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+            $this->getDoctrine()->getManager()->flush();
+
+            return $this->redirectToRoute('program_list');
+        }
+
+        return $this->render('program/edit.html.twig', [
+            'program' => $program,
+            'form' => $form->createView(),
+        ]);
+    }
+
+    /**
+     * @Route("/{idProgram}", name="delete", methods={"DELETE"})
+     * @ParamConverter("program", class="App\Entity\Program", options={"mapping": {"idProgram": "id"}})
+     */
+    public function delete(Request $request, Program $program): Response
+    {
+        if ($this->isCsrfTokenValid('delete'.$program->getId(), $request->request->get('_token'))) {
+            $entityManager = $this->getDoctrine()->getManager();
+            $entityManager->remove($program);
+            $entityManager->flush();
+        }
+
+        return $this->redirectToRoute('program_list');
     }
 }
