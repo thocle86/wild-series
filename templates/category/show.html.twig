@@ -8,7 +8,7 @@
         <div class="program_container">
             <p class="program_text">{{ program.id }} : {{ program.title }}</p>
             <p class="program_text">{{ program.summary }}</p>
-            <a href="{{ path('program_show', { idProgram: program.id }) }}" class="program_lien">Voir la fiche</a>
+            <a href="{{ path('program_show', { slugProgram: program.slug }) }}" class="program_lien">Voir la fiche</a>
         </div>
     {% else %}
         Aucune série trouvée.

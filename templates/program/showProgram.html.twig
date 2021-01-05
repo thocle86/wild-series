@@ -14,7 +14,7 @@
                 <div class="program_container">
                     <p class="program_text">Saison n°{{ season.number }}
                     / Première diffusion: {{ season.year }}</p>
-                    <a href="{{ path('program_season_show', { 'idProgram': program.id, 'idSeason': season.id }) }}" class="program_lien">Plus de détails</a>
+                    <a href="{{ path('program_season_show', { 'slugProgram': program.slug, 'idSeason': season.id }) }}" class="program_lien">Plus de détails</a>
                 </div>
             {% else %}
                 Aucune saison trouvée.

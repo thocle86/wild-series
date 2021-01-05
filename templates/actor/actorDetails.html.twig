@@ -9,7 +9,7 @@
             <h1 class="mt-0">{{ actor.firstname }} {{ actor.lastname }}</h1>
             {% for program in actor.programs %}
                 <div class="program_container">
-                    <a href="{{ path('program_show', { 'idProgram': program.id }) }}" class="program_text">{{ program.title }}</a>
+                    <a href="{{ path('program_show', { 'slugProgram': program.slug }) }}" class="program_text">{{ program.title }}</a>
                 </div>
             {% else %}
                 Aucune acteur trouvé.

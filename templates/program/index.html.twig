@@ -9,7 +9,7 @@
         <div class="program_container">
             <p class="program_text">{{ loop.index }} / {{ program.title }} - Catégorie : {{ program.category.name }}</p>
             <p class="program_text">{{ program.summary }}</p>
-            <a href="{{ path('program_show', { 'idProgram': program.id }) }}" class="program_lien">Plus de détails</a>
+            <a href="{{ path('program_show', { 'slugProgram': program.slug }) }}" class="program_lien">Plus de détails</a>
         </div>
     {% else %}
         Aucune série trouvée.

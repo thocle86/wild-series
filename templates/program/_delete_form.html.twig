@@ -1,5 +1,5 @@
-<form method="post" action="{{ path('program_delete', {'idProgram': program.id}) }}" onsubmit="return confirm('Etes-vous certain de vouloir supprimer cette série?');">
+<form method="post" action="{{ path('program_delete', {'slugProgram': program.slug}) }}" onsubmit="return confirm('Etes-vous certain de vouloir supprimer cette série?');">
     <input type="hidden" name="_method" value="DELETE">
-    <input type="hidden" name="_token" value="{{ csrf_token('delete' ~ program.id) }}">
+    <input type="hidden" name="_token" value="{{ csrf_token('delete' ~ program.slug) }}">
     <button class="submit">Supprimer</button>
 </form>

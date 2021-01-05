@@ -3,7 +3,7 @@
 {% block title %}{{ program.title }}{% endblock %}
 
 {% block body %}
-    <a href="{{ path('program_show', { 'idProgram': program.id }) }}" class="navigation">Retour à la liste des saisons</a>
+    <a href="{{ path('program_show', { 'slugProgram': program.slug }) }}" class="navigation">Retour à la liste des saisons</a>
     <div class="media">
         <div class="media-body">
             <h1 class="mt-0">{{ program.title }}</h1>
@@ -12,7 +12,7 @@
             {% for episode in season.episodes %}
             <div class="program_container">
                 <p class="program_text">Episode n°{{ episode.number }} - {{ episode.title }}</p>
-                <a href="{{ path('program_episode_show', { 'idProgram': program.id, 'idSeason': season.id, 'idEpisode': episode.id }) }}" class="program_lien">Plus de détails</a>
+                <a href="{{ path('program_episode_show', { 'slugProgram': program.slug, 'idSeason': season.id, 'slugEpisode': episode.slug }) }}" class="program_lien">Plus de détails</a>
             </div>
             {% else %}
                 Aucun épisode trouvé.
