@@ -1,0 +1,12 @@
+{% extends 'baseEmail.html.twig' %}
+
+{% block title %}{{ program.title }}{% endblock %}
+
+{% block body %}
+
+    <h1>Nouvelle série ajoutée</h1>
+    <h4>Salut, la série {{ program.title }} vient d'ếtre ajoutée.</h4>
+    <p>Synopsis : {{program.summary }}</p>
+    <a href="{{ absolute_url (program.slug) }}" class="program_lien">Plus de détails</a>
+
+{% endblock %}
