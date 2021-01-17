@@ -3,7 +3,9 @@
 {% block title %}{{ program.title }}{% endblock %}
 
 {% block body %}
-    <a href="{{ path('program_index') }}" class="navigation">Retour à la liste des séries</a>
+    <div>
+        <a href="{{ path('program_index') }}" class="navigation">Retour à la liste des séries</a>
+    </div>
     <div class="media">
         <img class="align-self-start mr-3" src="{{ program.poster }}" alt="{{ program.title }} poster">
         <div class="media-body">

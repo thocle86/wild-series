@@ -82,10 +82,13 @@ body {
 .form {
     margin: 50px auto;
     padding: 20px;
-    width: 800px;
+    width: 50vw;
     background-color: whitesmoke;
     border-radius: 10px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .form div {
     display: flex;
@@ -112,5 +115,10 @@ body {
 }
 .submit:hover {
     background-color: #058AD5;
-    transform: scale(1.1);
+}
+
+.login-name {
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: bold;
 }

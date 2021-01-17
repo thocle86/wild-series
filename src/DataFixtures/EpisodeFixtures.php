@@ -31,6 +31,7 @@ class EpisodeFixtures extends Fixture implements DependentFixtureInterface
                     $episode->setSynopsis($faker->paragraph($nbSentences = 20, $variableNbSentences = true));
                     $episode->setSlug($this->slugify->generate($episode->getTitle()));
                     $manager->persist($episode);
+                    $this->addReference('episode_'.$i.'_'.$y.'_'.$z, $episode);
                 }
             }
         }

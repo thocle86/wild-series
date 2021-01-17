@@ -7,6 +7,8 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\ParamConverter;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\HttpFoundation\Session\Session;
+
 use App\Repository\ProgramRepository;
 use App\Entity\Program;
 use App\Entity\Season;
@@ -15,6 +17,10 @@ use App\Form\ProgramType;
 use App\Service\Slugify;
 use Symfony\Component\Mailer\MailerInterface;
 use Symfony\Component\Mime\Email;
+use App\Entity\Comment;
+use App\Form\CommentType;
+use Symfony\Bridge\Twig\AppVariable;
+use Symfony\Component\HttpFoundation\ParameterBag;
 
 /**
  *  @Route("/programs", name="program_")
@@ -113,19 +119,49 @@ class ProgramController extends AbstractController
     }
 
     /**
-     * @Route("/{slugProgram}/season/{idSeason}/episode/{slugEpisode}", methods={"GET"}, name="episode_show")
+     * @Route("/{slugProgram}/season/{idSeason}/episode/{slugEpisode}", methods={"GET","POST"}, name="episode_show")
      * @ParamConverter("program", class="App\Entity\Program", options={"mapping": {"slugProgram": "slug"}})
      * @ParamConverter("season", class="App\Entity\Season", options={"mapping": {"idSeason": "id"}})
      * @ParamConverter("episode", class="App\Entity\Episode", options={"mapping": {"slugEpisode": "slug"}})
      * @return Response
      */
-    public function showEpisode(Program $program, Season $season, Episode $episode): Response
+    public function showEpisode(
+        Program $program, 
+        Season $season, 
+        Episode $episode, 
+        Request $request, 
+        Comment $comment): Response
     {
+        $comment = new Comment();
+        $form = $this->createForm(CommentType::class, $comment);
+        $form->handleRequest($request);
+        /*$routeName['currentRoute'] = $request->getUri();
+        $request->attributes->add($routeName);
+        $route = $request->attributes->get('currentRoute');
+        $type = gettype($route);*/
+        /*$routeName = $this->uri = $_SERVER['REQUEST_URI'];*/
+
+        if ($form->isSubmitted() && $form->isValid()) {
+            $comment->setAuthor($this->getUser());
+            $comment->setEpisode($episode);
+            $entityManager = $this->getDoctrine()->getManager();
+            $entityManager->persist($comment);
+            $entityManager->flush();
+
+            return $this->redirectToRoute('program_episode_show',
+                ['slugProgram' => $program->getSlug(),
+                'idSeason' => $season->getId(),
+                'slugEpisode' => $episode->getSlug(),]
+            );
+        }
+
         return $this->render(
             "program/showEpisode.html.twig",
             ["program" => $program,
             "season" => $season,
-            "episode" => $episode]
+            "episode" => $episode,
+            'comment' => $comment,
+            'form' => $form->createView()]
         );
     }
 

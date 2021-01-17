@@ -3,12 +3,14 @@
 {% block title %}{{ program.title }}{% endblock %}
 
 {% block body %}
-    <a href="{{ path('program_show', { 'slugProgram': program.slug }) }}" class="navigation">Retour à la liste des saisons</a>
+    <div>
+        <a href="{{ path('program_show', { 'slugProgram': program.slug }) }}" class="navigation">Retour à la liste des saisons</a>
+    </div>
     <div class="media">
         <div class="media-body">
             <h1 class="mt-0">{{ program.title }}</h1>
             <h2>Saison n°{{ season.number }} / Première diffusion: {{ season.year }}</h2>
-            <h2>{{ season.description }}</h2>
+            <h4>{{ season.description }}</h4>
             {% for episode in season.episodes %}
             <div class="program_container">
                 <p class="program_text">Episode n°{{ episode.number }} - {{ episode.title }}</p>

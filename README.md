@@ -1,5 +1,9 @@
 # wild-series
 
+## Quest solution symfony 19
+
+https://www.loom.com/share/02abc0083f5d41f4987c3cd8ceeba135?sharedAppSource=personal_library
+
 ## Quest solution symfony 18
 
 https://www.loom.com/share/321a3a01a93c431383587504e03af658?sharedAppSource=personal_library

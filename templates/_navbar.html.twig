@@ -24,13 +24,17 @@
         </ul>
         <ul class="navbar-nav mr-auto navbar-connexion">
             <!--DECONNEXION-->
-            <li class="nav-item btn-deconnexion">
-                <a class="nav-link" href="#">Déconnexion</a>
-            </li>
+            {% if app.user %}
+                <h4 class="login-name">{{ app.user.email }}</h4>
+                <li class="nav-item btn-deconnexion">
+                    <a class="nav-link" href="{{ path('app_logout') }}">Déconnexion</a>
+                </li>
+            {% else %}
             <!--CONNEXION-->
-            <li class="nav-item btn-connexion">
-                <a class="nav-link" href="#">Connexion</a>
-            </li>
+                <li class="nav-item btn-connexion">
+                    <a class="nav-link" href="{{ path('app_login') }}">Connexion</a>
+                </li>
+            {% endif %}
         </ul>
     </div>
 </nav>

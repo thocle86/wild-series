@@ -3,11 +3,32 @@
 {% block title %}{{ program.title }}{% endblock %}
 
 {% block body %}
-    <a href="{{ path('program_season_show', { 'slugProgram': program.slug, 'idSeason': season.id }) }}" class="navigation">Retour à la liste des episodes</a>
+    <div>
+        <a href="{{ path('program_season_show', { 'slugProgram': program.slug, 'idSeason': season.id }) }}" class="navigation">Retour à la liste des episodes</a>
+    </div>
     <h1 class="mt-0">{{ program.title }}</h1>
     <h2>Saison n°{{ season.number }}</h2>
     <h2>Episode n°{{ episode.number }} - {{ episode.title }}</h2>
     <div class="program_container">
-        <h2>{{ episode.synopsis }}</h2>
+        <h4>{{ episode.synopsis }}</h4>
     </div>
+    <div class="program_container">
+        <h2>Commentaires</h2>
+        <div class="program_text">
+            {% for comment in episode.comments %}
+                <h4>{{ loop.index }} - {{ comment.comment }} - note: {{ comment.rate }}</h4>
+                <h5 style="color: blue">{{ comment.author.email }}</h5>
+                {% if app.user %}
+                    {{ include('comment/_delete_form.html.twig') }}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    {% if app.user %}
+    
+    <div class="form form-new">
+        <h2>Ecrire un nouveau commentaire</h2>
+        {{ include('comment/_form.html.twig', {'button_label': 'Valider'}) }}
+    </div>
+    {% endif %}
 {% endblock %}
