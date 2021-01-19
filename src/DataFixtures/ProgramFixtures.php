@@ -67,6 +67,7 @@ class ProgramFixtures extends Fixture implements DependentFixtureInterface
             $program->setCountry($data['country']);
             $program->setYear($data['year']);
             $program->setSlug($this->slugify->generate($program->getTitle()));
+            $program->setOwner($this->getReference('machin'));
             $manager->persist($program);
             $this->addReference('program_' . $i, $program);
             $i++;
@@ -76,6 +77,6 @@ class ProgramFixtures extends Fixture implements DependentFixtureInterface
 
     public function getDependencies()  
     {
-        return [CategoryFixtures::class];  
+        return [UserFixtures::class];  
     }
 }

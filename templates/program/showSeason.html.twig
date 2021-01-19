@@ -17,7 +17,7 @@
                 <a href="{{ path('program_episode_show', { 'slugProgram': program.slug, 'idSeason': season.id, 'slugEpisode': episode.slug }) }}" class="program_lien">Plus de détails</a>
             </div>
             {% else %}
-                Aucun épisode trouvé.
+                <h3>Aucun épisode trouvé.</h3>
             {% endfor %}
         </div>
     </div>

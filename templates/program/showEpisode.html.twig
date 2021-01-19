@@ -18,7 +18,8 @@
             {% for comment in episode.comments %}
                 <h4>{{ loop.index }} - {{ comment.comment }} - note: {{ comment.rate }}</h4>
                 <h5 style="color: blue">{{ comment.author.email }}</h5>
-                {% if app.user %}
+                {% if not is_granted("ROLE_ADMIN") and not app.user %}
+                {% else %}
                     {{ include('comment/_delete_form.html.twig') }}
                 {% endif %}
             {% endfor %}

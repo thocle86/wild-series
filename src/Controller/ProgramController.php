@@ -8,7 +8,6 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\Session\Session;
-
 use App\Repository\ProgramRepository;
 use App\Entity\Program;
 use App\Entity\Season;
@@ -21,6 +20,7 @@ use App\Entity\Comment;
 use App\Form\CommentType;
 use Symfony\Bridge\Twig\AppVariable;
 use Symfony\Component\HttpFoundation\ParameterBag;
+use Symfony\Component\Security\Core\Exception\AccessDeniedException;
 
 /**
  *  @Route("/programs", name="program_")
@@ -71,6 +71,7 @@ class ProgramController extends AbstractController
             $entityManager = $this->getDoctrine()->getManager();
             $slug = $slugify->generate($program->getTitle());
             $program->setSlug($slug);
+            $program->setOwner($this->getUser());
             $entityManager->persist($program);
             $entityManager->flush();
 
@@ -171,6 +172,15 @@ class ProgramController extends AbstractController
      */
     public function edit(Request $request, Program $program): Response
     {
+        // Check wether the logged in user is the owner of the program
+        if (!(in_array('ROLE_ADMIN', $this->getUser()->getRoles())) &&
+            !($this->getUser() == $program->getOwner())
+            )
+        {
+            // If not the owner, throws a 403 Access Denied exception
+            throw new AccessDeniedException('Only the owner can edit the program!');
+        }
+
         $form = $this->createForm(ProgramType::class, $program);
         $form->handleRequest($request);
 
@@ -192,6 +202,15 @@ class ProgramController extends AbstractController
      */
     public function delete(Request $request, Program $program): Response
     {
+        // Check wether the logged in user is the owner of the program
+        if (!(in_array('ROLE_ADMIN', $this->getUser()->getRoles())) &&
+            !($this->getUser() == $program->getOwner())
+            )
+        {
+            // If not the owner, throws a 403 Access Denied exception
+            throw new AccessDeniedException('Only the owner can edit the program!');
+        }
+
         if ($this->isCsrfTokenValid('delete'.$program->getSlug(), $request->request->get('_token'))) {
             $entityManager = $this->getDoctrine()->getManager();
             $entityManager->remove($program);

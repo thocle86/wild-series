@@ -10,8 +10,11 @@
             <p class="program_text">{{ loop.index }} / {{ program.title }} - Catégorie : {{ program.category.name }}</p>
             <p class="program_text">{{ program.summary }}</p>
             <a href="{{ path('program_show', { 'slugProgram': program.slug }) }}" class="program_lien">Plus de détails</a>
+            {% if is_granted("ROLE_ADMIN") %}
+                <a href="{{ path('program_edit', { 'slugProgram': program.slug} ) }}" class="submit">Éditer</a>
+            {% endif %}
         </div>
     {% else %}
-        Aucune série trouvée.
+        <h3>Aucune série trouvée.</h3>
     {% endfor %}
 {% endblock %}

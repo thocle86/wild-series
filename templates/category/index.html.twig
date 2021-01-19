@@ -4,7 +4,9 @@
 
 {% block body %}
     <h1 class="program_title">Toutes les catégories</h1>
-    <a href="{{ path('index') }}" class="navigation">Retour à l'accueil</a>
+    <div>
+        <a href="{{ path('index') }}" class="navigation">Retour à l'accueil</a>
+    </div>
     
     {% for category in categories %}
         <div class="program_container">
@@ -12,6 +14,6 @@
             <a href="{{ path('category_show', { categoryName: category.name }) }}" class="program_lien">Voir la fiche</a>
         </div>
     {% else %}
-        Aucune catégorie trouvée.
+        <h3>Aucune catégorie trouvée.</h3>
     {% endfor %}
 {% endblock %}

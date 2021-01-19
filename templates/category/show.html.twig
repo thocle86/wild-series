@@ -3,7 +3,9 @@
 {% block title %}Catégorie {{ category.name }}{% endblock %}
 
 {% block body %}
-    <a href="{{ path('category_index') }}" class="navigation">Retour à la liste des catégories</a>
+    <div>
+        <a href="{{ path('category_index') }}" class="navigation">Retour à la liste des catégories</a>
+    </div>
     {% for program in programs %}
         <div class="program_container">
             <p class="program_text">{{ program.id }} : {{ program.title }}</p>
@@ -11,6 +13,6 @@
             <a href="{{ path('program_show', { slugProgram: program.slug }) }}" class="program_lien">Voir la fiche</a>
         </div>
     {% else %}
-        Aucune série trouvée.
+        <h3>Aucune série trouvée.</h3>
     {% endfor %}
 {% endblock %}
