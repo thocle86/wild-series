@@ -23,9 +23,17 @@
             </li>
         </ul>
         <ul class="navbar-nav mr-auto navbar-connexion">
+            {% if not app.user %}
+            <li class="nav-item btn-deconnexion">
+                <a class="nav-link" href="{{ path('app_register') }}">Nouveau</a>
+            </li>
+            {% endif %}
             <!--DECONNEXION-->
             {% if app.user %}
-                <h4 class="login-name">{{ app.user.email }}</h4>
+                <p class="login-name">{{ app.user.email }}</p>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ path('my_profil') }}">Mon compte</a>
+                </li>
                 <li class="nav-item btn-deconnexion">
                     <a class="nav-link" href="{{ path('app_logout') }}">Déconnexion</a>
                 </li>

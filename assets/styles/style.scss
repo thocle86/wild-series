@@ -118,7 +118,24 @@ body {
 }
 
 .login-name {
-    color: whitesmoke;
-    font-size: 25px;
+    background-color: whitesmoke;
+    font-size: 15px;
     font-weight: bold;
+    color: #058AD5;
+}
+
+.form-new ul {
+    background-color: rgb(255, 234, 234);
+    font-size: 20px;
+    color: red;
+    border: solid 2px red;
+    padding: 10px 30px;
+    list-style: none;
+    animation: 1s warning infinite ease-in-out
+}
+
+@keyframes warning {
+    0% { transform: scale(1.0); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1.0); }
 }

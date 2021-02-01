@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mon profil{% endblock %}
+
+{% block body %}
+    
+    <section>
+        <h1>Mon profil</h1>
+        <h2>Série(s) créée(s)</h2>
+        {% if app.user %}
+            <div>
+            {% for program in app.user.programs %}
+                <p class="program_container">Titre : {{ program.title }}</p>
+            {% else %}
+                <p>Vous n'avez éditer aucune série</p>
+            {% endfor %}
+            </div>
+        {% else %}
+            <p>Vous n'êtes pas connectés</p>
+        {% endif %}
+    </section>
+{% endblock %}
