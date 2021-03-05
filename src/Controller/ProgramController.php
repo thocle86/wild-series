@@ -7,7 +7,6 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\ParamConverter;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Component\HttpFoundation\Session\Session;
 use App\Repository\ProgramRepository;
 use App\Entity\Program;
 use App\Entity\Season;
@@ -18,9 +17,8 @@ use Symfony\Component\Mailer\MailerInterface;
 use Symfony\Component\Mime\Email;
 use App\Entity\Comment;
 use App\Form\CommentType;
-use Symfony\Bridge\Twig\AppVariable;
-use Symfony\Component\HttpFoundation\ParameterBag;
 use Symfony\Component\Security\Core\Exception\AccessDeniedException;
+use App\Form\SearchProgramType;
 
 /**
  *  @Route("/programs", name="program_")
@@ -31,13 +29,25 @@ class ProgramController extends AbstractController
      * @Route("/", name="index")
      * @return Response
      */
-    public function index(ProgramRepository $programRepository): Response
-    {
-        $programs = $programRepository->findAll();
+    public function index(
+        Request $request,
+        ProgramRepository $programRepository
+    ): Response {
+        $form = $this->createForm(SearchProgramType::class);
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+            $search = $form->getData()['search'];
+            $programs = $programRepository->findLikeName($search);
+        } else {
+            $programs = $programRepository->findAll();
+        }
 
         return $this->render(
-            "program/index.html.twig",
-            ["programs" => $programs]
+            "program/index.html.twig", [
+                "programs" => $programs,
+                "form" => $form->createView(),
+            ]
         );
     }
 
@@ -131,16 +141,11 @@ class ProgramController extends AbstractController
         Season $season, 
         Episode $episode, 
         Request $request, 
-        Comment $comment): Response
-    {
+        Comment $comment
+    ): Response {
         $comment = new Comment();
         $form = $this->createForm(CommentType::class, $comment);
         $form->handleRequest($request);
-        /*$routeName['currentRoute'] = $request->getUri();
-        $request->attributes->add($routeName);
-        $route = $request->attributes->get('currentRoute');
-        $type = gettype($route);*/
-        /*$routeName = $this->uri = $_SERVER['REQUEST_URI'];*/
 
         if ($form->isSubmitted() && $form->isValid()) {
             $comment->setAuthor($this->getUser());
@@ -148,14 +153,12 @@ class ProgramController extends AbstractController
             $entityManager = $this->getDoctrine()->getManager();
             $entityManager->persist($comment);
             $entityManager->flush();
-
             return $this->redirectToRoute('program_episode_show',
                 ['slugProgram' => $program->getSlug(),
                 'idSeason' => $season->getId(),
                 'slugEpisode' => $episode->getSlug(),]
             );
         }
-
         return $this->render(
             "program/showEpisode.html.twig",
             ["program" => $program,

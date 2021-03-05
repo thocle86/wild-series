@@ -1,5 +1,9 @@
 # wild-series
 
+## Quest solution symfony 22
+
+https://www.loom.com/share/fb621aeced584a1e94124c0818d91c49?sharedAppSource=personal_library
+
 ## Quest solution symfony 21
 
 https://www.loom.com/share/df67f370fae245fda2e6d5c9c8895c93?sharedAppSource=personal_library
