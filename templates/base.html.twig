@@ -12,6 +12,13 @@
         <header>
         {% include "_navbar.html.twig" %}
         </header>
+        {% for category, messages in app.flashes %}
+            {% for message in messages %}
+                <div class="alert alert-{{ category }}">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        {% endfor %}
         {% if app.user %}
             <h1>Editer</h1>
             <a href="{{ path('category_new') }}" class="navigation">Catégorie</a>
