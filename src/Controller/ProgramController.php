@@ -19,6 +19,7 @@ use App\Entity\Comment;
 use App\Form\CommentType;
 use Symfony\Component\Security\Core\Exception\AccessDeniedException;
 use App\Form\SearchProgramType;
+use Doctrine\ORM\EntityManagerInterface;
 
 /**
  *  @Route("/programs", name="program_")
@@ -227,5 +228,43 @@ class ProgramController extends AbstractController
         }
 
         return $this->redirectToRoute('program_list');
+    }
+
+    /**
+     * @Route("/{idProgram}/watchlist", name="watchlist", methods={"GET", "POST"})
+     * @ParamConverter("program", class="App\Entity\Program", options={"mapping": {"idProgram": "id"}})
+     */
+    public function addToWatchlist(Program $program, EntityManagerInterface $entityManager)
+    {
+        if ($this->getUser()->getWatchlist()->contains($program)) {
+            $this->getUser()->removeWatchlist($program);
+        }
+        else {
+            $this->getUser()->addWatchlist($program);
+        }
+
+        $entityManager->flush();
+
+        return $this->redirectToRoute("program_show", ["slugProgram" => $program->getSlug()]);
+    }
+
+    /**
+     * @Route("/{idProgram}/watchlist/Program", name="watchlist_program", methods={"GET", "POST"})
+     * @ParamConverter("program", class="App\Entity\Program", options={"mapping": {"idProgram": "id"}})
+     */
+    public function addToWatchlistInProgram(Program $program, EntityManagerInterface $entityManager)
+    {
+        if ($this->getUser()->getWatchlist()->contains($program)) {
+            $this->getUser()->removeWatchlist($program);
+        }
+        else {
+            $this->getUser()->addWatchlist($program);
+        }
+
+        $entityManager->flush();
+        
+        return $this->json([
+            'isInWatchlist' => $this->getUser()->isInWatchlist($program)
+        ]);
     }
 }

@@ -19,6 +19,11 @@
             {% if is_granted("ROLE_ADMIN") %}
                 <a href="{{ path('program_edit', { 'slugProgram': program.slug} ) }}" class="submit">Éditer</a>
             {% endif %}
+            {% if app.user %}
+                <a href="{{ path("program_watchlist", { idProgram: program.id }) }}">
+                    <i class="{{ app.user.isInWatchlist(program) ? 'fas' : 'far' }} fa-heart"></i>
+                </a>
+            {% endif %}
         </div>
     {% else %}
         <h3>Aucune série trouvée.</h3>
